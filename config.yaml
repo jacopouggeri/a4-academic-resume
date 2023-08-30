@@ -2,7 +2,7 @@ baseURL: "/"
 languageCode: "en-us"
 title: "Jacopo Uggeri | Resume"
 disableKinds: ["taxonomy", "term", "page", "section", "RSS", "sitemap", "robotsTXT", "404"]
-theme: "academic-resume-a4"
+theme: "a4cv"
 enableGitInfo: true
 
 # Construct main column, side column and additional page from features
