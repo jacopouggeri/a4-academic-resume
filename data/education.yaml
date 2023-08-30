@@ -1,0 +1,19 @@
+- name: "Msc Quantum Fields and Fundamental Forces"
+  link: https://www.imperial.ac.uk/study/courses/postgraduate-taught/quantum-fields-fundamental-forces/
+  more: "London, UK"
+  university: "Imperial College London"
+  date: "Sep 2023 — 2024"
+  gpa : 
+
+- name: "Msci Physics with Theoretical Physics"
+  university: "Imperial College London"
+  link: "https://www.imperial.ac.uk/study/courses/undergraduate/physics-theoretical-msci/"
+  more: "London, UK" # Optional field, if you want to add a non-standard line.
+  date: "2019 — 2023"
+  gpa: "67.08"
+
+- name: "Diploma di Liceo Scientifico Tradizionale" 
+  university: "Liceo Scientifico Giovanni Gandini"
+  more: "Lodi, Italy" # Optional field, if you want to add a non-standard line.
+  date: "2013 — 2019"
+  gpa: "100/100"

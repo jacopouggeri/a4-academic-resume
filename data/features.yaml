@@ -1,0 +1,92 @@
+about:
+  name: Jacopo Uggeri
+  tagline: Master's student in Theoretical Physics
+  phone:
+  email: jacopo.uggeri@gmail.com
+  links:
+    - title: /in/jacopouggeri000
+      url: https://linkedin.com/in/jacopouggeri000
+      icon: fab fa-linkedin
+    - title: jacopouggeri
+      url: https://github.com/jacopouggeri
+      icon: fab fa-github
+    - title: jacopouggeri
+      url: https://youtube.com/@jacopouggeri
+      icon: fab fa-youtube
+  details: |
+    I am a curiosity driven and passionate student with a strong interest in theoretical physics and cosmology. I am currently studying for a Master's degree in Quantum Fields and Fundamental Forces at Imperial College London. I am looking for a PhD position in Theoretical Physics, starting in 2024. Outside of physics, my interests extend to computer science, machine learning, and graphic design. I enjoy learning languages.
+
+
+skills:
+  - groupName: Databases & Visualization
+    list:
+      - Grafana - Kibana - PowerBI
+      - InfluxDB - TICK Stack
+
+  - groupName: Data Analysis & Analytics
+    list:
+      - Python - R - SQL
+      - Excel - Minitab - SPSS
+      - GAMS - PuLP - OR Tools
+
+  - groupName: Programming & Systems
+    list:
+      - C++ - Git - Docker - NGINX
+      - Linux - CentOS RHEL
+
+interests:
+  - Data Science
+  - AI Applications
+  - Optimization Problems
+
+languages:
+  - name: Italian
+    level: 5
+    icon: it
+
+  - name: English
+    level: 5
+    icon: gb
+#    certificates:
+#      -
+  
+  - name: Spanish
+    level: 4
+    icon: es
+  
+  - name: Japanese
+    level: 3
+    icon: jp
+
+  - name: Mandarin
+    level: 2
+    icon: cn
+
+# This will use the default widget: "details-list"
+awards:
+  - title: "Tübitak - Graduation Project"
+    date: "2017"
+    subtitle: "A Decision Support System for 3D Cutting Problem"
+    #details: |
+    #   - add more here if you like to.
+    #   - or just comment out/delete the field.
+    links:
+      - title: example
+        url: https://mertbakir.gitlab.io
+        icon: fas fa-bolt
+        prefix: "This is an " # use quotation marks if you want to pass the tailing space.
+      - title: second link.
+        url: https://esdfdsfdsf
+        icon: "-" # you can get rid of the icon by entering dummy text
+        prefix: "omg"
+
+certificates:
+  - title: "Supervised Learning: Regression"
+    subtitle: Coursera
+    date: "2020"
+    link: https://xkcd.com/605/ # This link will be on title level.
+
+  - title: "Supervised Learning: Classification"
+    subtitle: Coursera
+    date: "2020"
+    link: https://xkcd.com/388/
