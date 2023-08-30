@@ -1,0 +1,21 @@
+@import 'theme_vars';
+$font-1: 'PT Sans', 'IBM Plex Sans', 'Arial', sans-serif;
+$border-color: $mydove;
+$text-color: $myblue;
+
+$accent: $darkaqua;
+$neutral: $mydove;
+
+$toprak: $accent;
+$turk: $accent;
+
+$paper: $mywhite;
+$paper-bg: $mywhite;
+
+@import "base";
+@import "redundant";
+@import "layout";
+@import "section";
+@import "footer";
+@import "print";
+@import "skill-bar";
