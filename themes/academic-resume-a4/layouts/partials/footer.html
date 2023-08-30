@@ -13,8 +13,16 @@
 {{ end }}
 
 <span class="footer-item">
-	<!--{{ .Footer.footnote }}-->
-    <span>Last updated: {{ .Site.LastChange.Format "January 2, 2006" }}</span>
+	{{ if ne .Footer.footnote "" }}
+	{{ .Footer.footnote }} | 
+	{{ end }}
+	<a href="#" id="print-link" class="no-external-icon"><span>Save as PDF</span>&nbsp;<i class="fa fa-file-pdf"></i></a> | Last updated on {{ .Footer.lastUpdate }}
+	<script>
+		document.getElementById('print-link').addEventListener('click', function(event) {
+			event.preventDefault(); // Prevent the default link behavior
+			window.print();
+		});
+	</script>
 </span>
 
 {{ if .Footer.credits }}

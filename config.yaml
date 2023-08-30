@@ -86,8 +86,9 @@ params:
   footer:
     show: true
     credits: true
+    lastUpdate: "30 August 2023"
     footnote: >-
-      You can print this resume in A4 size or save as pdf. | Last update on 29-08-2023.
+      
     links:
       - prefix: Contact me on
         title: Linkedin

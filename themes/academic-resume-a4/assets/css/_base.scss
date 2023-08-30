@@ -37,3 +37,11 @@ li {
   list-style-position: inside;
   margin: 0.5rem 0;
 }
+
+/* Enable background printing in browsers */
+@media print {
+  body {
+      print-color-adjust: exact;
+      -webkit-print-color-adjust: exact;
+  }
+}
