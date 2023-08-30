@@ -14,9 +14,7 @@
 
 <span class="footer-item">
 	<!--{{ .Footer.footnote }}-->
-	{{ with .GitInfo }}
-	<span>Last updated: {{ .Committer.When.Format "January 2, 2006" }}</span>
-	{{ end }}
+    <span>Last updated: {{ .Site.LastChange.Format "January 2, 2006" }}</span>
 </span>
 
 {{ if .Footer.credits }}
