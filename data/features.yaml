@@ -18,21 +18,19 @@ about:
 
 
 skills:
-  - groupName: Databases & Visualization
+  - groupName: Typography & Markup
     list:
-      - Grafana - Kibana - PowerBI
-      - InfluxDB - TICK Stack
+      - LateX - Markdown
+      - HTML - CSS - Javascript
 
-  - groupName: Data Analysis & Analytics
+  - groupName: Data Analysis & ML
     list:
-      - Python - R - SQL
-      - Excel - Minitab - SPSS
-      - GAMS - PuLP - OR Tools
+      - Python - PyTorch - Keras - OpenCV
 
-  - groupName: Programming & Systems
+  - groupName: Coding
     list:
-      - C++ - Git - Docker - NGINX
-      - Linux - CentOS RHEL
+      - C++ - Java - Git - Bash
+      - Wolfram Mathematica - Haskell
 
 interests:
   - Data Science

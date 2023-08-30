@@ -49,6 +49,7 @@ enableGitInfo: true
 params:
   useFontAwesome: true
   useFlagIcons: true # https://flagicons.lipis.dev/
+  workInProgress: true # display work in progress
   css:
     - custom.scss
 #   - print_urls.scss
