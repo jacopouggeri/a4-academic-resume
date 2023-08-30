@@ -13,12 +13,17 @@
 {{ end }}
 
 <span class="footer-item">
-	{{ .Footer.footnote }}
+	<!--{{ .Footer.footnote }}-->
+	{{ with .GitInfo }}
+	<span>Last updated: {{ .Committer.When.Format "January 2, 2006" }}</span>
+	{{ end }}
 </span>
 
 {{ if .Footer.credits }}
 <span class="footer-item" id="credits">
-	<span>The open-source theme Resume-A4 is designed by</span>
+	<span>Open-source theme Academic-Resume-A4 by</span>
+	<a href="https://github.com/jacopouggeri/academic-resume-a4" class="no-external-icon"><span>Jacopo&nbsp;Uggeri</span>&nbsp;<i class="fab fa-github"></i></a>
+	<span>Inspired by Resume-A4 by</span>
 	<a href="https://gitlab.com/mertbakir/resume-A4" class="no-external-icon"><span>Mert&nbsp;Bakır</span>&nbsp;<i class="fab fa-gitlab"></i></a>
 	<br>
 	<span>and template code by</span>

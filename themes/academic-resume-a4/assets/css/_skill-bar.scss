@@ -1,0 +1,51 @@
+.skill-bar {
+    width: 55%;
+    height: 7px;
+    position: relative;
+    border-radius: 10px;
+    float: right;
+    margin-top: 0.45em;
+
+    .background-box {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: scale-color($neutral, $lightness: 60%);
+        border-radius: 10px;
+    }
+
+    .progress-box {
+        position: absolute;
+        height: 100%;
+        background-color: $accent;
+        border-radius: 10px;
+    }
+
+    /* Different levels of completion */
+    .level-1 { width: 20%; animation: level-1 2s ease-out; }
+    .level-2 { width: 40%; animation: level-2 2s ease-out; }
+    .level-3 { width: 60%; animation: level-3 2s ease-out; }
+    .level-4 { width: 80%; animation: level-4 2s ease-out; }
+    .level-5 { width: 100%; animation: level-5 2s ease-out; }
+}
+
+@keyframes level-1 { 
+    0%  { width:0px;} 
+    100%{ width:20%;}  
+}
+@keyframes level-2 {
+    0%  { width:0px;} 
+    100%{ width:40%;}  
+}
+@keyframes level-3 {
+    0%  { width:0px;}
+    100%{ width:60%;}
+}
+@keyframes level-4 {
+    0%  { width:0px;}
+    100%{ width:80%;}
+}
+@keyframes level-5 {
+    0%  { width:0px;}
+    100%{ width:100%;}
+}
