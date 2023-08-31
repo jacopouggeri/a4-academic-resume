@@ -6,12 +6,12 @@
     align-items: center;
     justify-content: center;
     height: 80%;
-    font-size: 27vw;
+    font-size: 27vw; /* Use vw for responsiveness */
     font-weight: 700;
     color: $accent;
     z-index: 9999;
-    opacity: 0; /* Start with 0 opacity */
-    animation: fadeIn 1s ease-in-out forwards; /* Apply the animation */
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
 }
 
 @keyframes fadeIn {
