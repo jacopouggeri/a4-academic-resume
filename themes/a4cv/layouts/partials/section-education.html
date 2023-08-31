@@ -1,8 +1,24 @@
 {{ range .Data.education }}
 <div class="item">
+	{{ if $.IsSide }}
 	<h2 class="item-title">{{ .name }}</h2>
 	<span>{{ .university }}</span><br>
-	{{ if .more }}<span>{{ .more }}</span><br>{{ end }}
+	{{ if .location }}<span>{{ .location }}</span><br>{{ end }}
 	<span>{{ .date }}{{ if .gpa }} | GPA: {{ .gpa }}{{ end }}</span>
+	{{ if .more }}<span>{{ .more }}</span><br>{{ end }}
+	{{ else }}
+	<h2 class="item-title">{{ .name }} </h2>
+	<div class="item">
+		<div class="flex-row">
+			<span class="location">{{ .university }}, {{ .location }} </span>
+			<span class="date">{{ .date }}</span>
+		</div>
+		{{ if .details }}
+		<div class="details">
+		{{- partial "markdown" .details }}
+		</div>
+		{{ end }}
+	</div>
+	{{ end }}
 </div>
 {{ end }}

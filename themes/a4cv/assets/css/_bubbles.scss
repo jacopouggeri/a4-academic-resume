@@ -1,0 +1,13 @@
+.bubble-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; // Adjust the gap between bubbles
+
+    .bubble {
+        display: inline-block;
+        padding: 5px 10px; // Adjust padding to control bubble size
+        border-radius: 10px; // Rounded corners
+        background-color: #3498db; // Background color of the bubble
+        color: #ffffff; // Text color
+    }
+}

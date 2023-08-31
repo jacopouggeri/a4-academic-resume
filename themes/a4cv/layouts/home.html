@@ -45,7 +45,7 @@
 
 			<div class="right-column">
 				{{ range .Site.Params.side }}
-					{{ partial "section" (dict "Feature" . "Data" $.Site.Data "useFontAwesome" $.Site.Params.useFontAwesome) }}
+					{{ partial "section" (dict "Feature" . "Data" $.Site.Data "useFontAwesome" $.Site.Params.useFontAwesome "IsSide" true) }}
 				{{ end }}
 			</div>
 		</div>

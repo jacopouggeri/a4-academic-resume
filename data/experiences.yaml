@@ -1,0 +1,9 @@
+experiences:
+- title: "Wolfram Summer School"
+  subtitle:
+  date: "2023"
+  details: |
+    - Research experience in the Wolfram Physics project, Causal Set Theory, and General Relativity
+    - First-ever analysis of curved spacetime entropy in the Wolfram Physics Project.
+    - Applied Wolfram language computational tools to obtain the causal graph structure of a Schwarzschild black hole.
+    - Investigated the hypothesis that black hole entropy emerges from the entanglement of the interior and exterior causal graph regions.

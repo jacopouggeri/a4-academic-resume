@@ -62,6 +62,10 @@
   box-shadow: none;
 }
 
+.item-subtitle {
+  font-weight: 300;
+}
+
 .item-info {
   font-weight: 400;
   font-size: 14px;
@@ -72,8 +76,8 @@
 }
 
 .date {
- color: $accent;
- font-weight: bold;
+  color: $accent;
+  font-weight: bold;
 }
 
 main.paper .right-column,
@@ -108,4 +112,11 @@ main.paper .left-column,
       }
     }
   }
+}
+
+.details li {
+  line-height: 1.5;
+  margin-bottom: 0.1em; /* Adjust spacing between list items */
+  margin: 0; /* Remove default margin to control spacing */
+  padding-left: 20px; /* Add some left padding for indentation */
 }

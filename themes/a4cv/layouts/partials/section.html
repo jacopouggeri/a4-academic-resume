@@ -1,7 +1,6 @@
 <div class="section section-{{ .Feature.feature }}">
 	<!-- Remove publications section -->
-	{{- if eq (.Feature.title | default (title .Feature.feature)) "Publications" -}}
-	{{- else if or (not (isset .Feature "title")) .Feature.title -}}
+	{{- if or (not (isset .Feature "title")) .Feature.title -}}
 	<h1 class="section-title">{{ .Feature.title | default (title .Feature.feature) }}</h1>
 	{{- end -}}
 	{{- $partial := (printf "section-%s.html" (default .Feature.feature .Feature.widget)) -}}

@@ -1,19 +1,30 @@
 - name: "Msc Quantum Fields and Fundamental Forces"
   link: https://www.imperial.ac.uk/study/courses/postgraduate-taught/quantum-fields-fundamental-forces/
-  more: "London, UK"
+  location: "London, UK"
   university: "Imperial College London"
   date: "Sep 2023 — 2024"
-  gpa : 
+  more:
+  gpa :
+  details: |
+    - Theoretical physics course designed to start a research career
+    - Will acquire unique insight into topics including the unification of fundamental forces, the early universe, quantum gravity, and quantum field theory.
 
 - name: "Msci Physics with Theoretical Physics"
   university: "Imperial College London"
   link: "https://www.imperial.ac.uk/study/courses/undergraduate/physics-theoretical-msci/"
-  more: "London, UK" # Optional field, if you want to add a non-standard line.
+  location: "London, UK" # Optional field, if you want to add a non-standard line.
   date: "2019 — 2023"
   gpa: "67.08"
+  details: |
+    - Achieved 1st class in theoretical modules: Mathematical Methods, Foundations of Quantum Mechanics, Advanced Classical Physics, Group Theory, Nuclear and Particle Physics, Statistical Mechanics, General Relativity
+    - Achieved First Class Honours in 4th Year
+
 
 - name: "Diploma di Liceo Scientifico Tradizionale" 
   university: "Liceo Scientifico Giovanni Gandini"
-  more: "Lodi, Italy" # Optional field, if you want to add a non-standard line.
+  location: "Lodi, Italy" # Optional field, if you want to add a non-standard line.
   date: "2013 — 2019"
   gpa: "100/100"
+  details: |
+    - Scientifically oriented high school program with a wide range of subjects spanning both sciences and humanities
+    - Participated in extracurricular events and activities with a focus on Physics and Mathematics

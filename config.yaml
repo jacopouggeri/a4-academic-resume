@@ -49,21 +49,22 @@ enableGitInfo: true
 params:
   useFontAwesome: true
   useFlagIcons: true # https://flagicons.lipis.dev/
-  workInProgress: true # display work in progress
+  workInProgress: false # display work in progress
   css:
     - custom.scss
 #   - print_urls.scss
   header:
-    avatar: profile.jpeg
+    avatar: img/profile.jpeg
     contact: true
     tagline: true
-    links: false
+    links: true
   side:
+    - feature: proExperience
+      title: Professional Experience
     - feature: languages
     - feature: skills
       widget: word-list
       style: compact # list, compact, title-list
-    - feature: education
     - feature: interests
       widget: word-list
       style: list
@@ -71,18 +72,19 @@ params:
     - features:
         - feature: about
           title: About Me
-        - feature: experience
+        - feature: education
     - features:
         - feature: projects
-          collection: projects
-        - feature: publications
-          style: IEEE # IEEE, APA, else
-        - feature: awards
-        - feature: certificates
-          title: Certifications
-        - feature: interests
-          widget: word-list
-          style: list
+        - feature: experiences
+          collection: experiences
+        #- feature: publications
+          #style: IEEE # IEEE, APA, else
+        #- feature: awards
+        #- feature: certificates
+          #title: Certifications
+        #- feature: interests
+          #widget: word-list
+          #style: list
         
   footer:
     show: true

@@ -1,6 +1,7 @@
-projects:
 - title: "Black Hole Entanglement Entropy From Causal Graphs"
-  subtitle: "Wolfram Summer School"
+  subtitle:
+  location: "Wolfram Summer School"
+  supervisor: "Jonathan Gorard"
   date: "2023"
   details: |
     - Research experience in the Wolfram Physics project, Causal Set Theory, and General Relativity
@@ -8,18 +9,15 @@ projects:
     - Applied Wolfram language computational tools to obtain the causal graph structure of a Schwarzschild black hole.
     - Investigated the hypothesis that black hole entropy emerges from the entanglement of the interior and exterior causal graph regions.
 
-- title: "Shining Light on Missing Red Giants: Red Giant Photoevaporation in the Galactic Centre"
-  subtitle: "Msci Project at Imperial College London"
+- title: "Shining Light on Missing Red Giants"
+  subtitle: "Red Giant Photoevaporation in the Galactic Centre"
+  location: "Imperial College London"
+  supervisor: "James Owen"
   link: "https://jacopouggeri.github.io/msci/"
   date: "2022 — 2023"
   details: |
-    - Supervisor: James Owen
     - Determined the photoevaporation rate of red giants around supermassive black holes and how it affects their evolution.
     - Computational and theoretical project: designed, wrote, and tested shareable code.
     - Developed critical scientific thinking and research skills.
     - Reached positive and encouraging conclusions.
     - Mark: First Class
-  links:
-  - title: Available in GitLab
-    url: https://gitlab.com/mertbakir/resume-a4
-    icon: fab fa-gitlab

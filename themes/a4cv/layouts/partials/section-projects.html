@@ -1,0 +1,16 @@
+{{ range .Data.projects }}
+<div class="item group">
+	<h2 class="item-title"><a href="{{ .link }}">{{ .title }} {{ if .subtitle }}| <span class="item-subtitle">{{ .subtitle }}</span>{{ end }}</a></h2>
+	<div class="item">
+		<div class="flex-row">
+			<span class="location">{{ .location }}</span>
+			<span class="date">{{ .date }}</span>
+		</div>
+        {{ if .details }}
+        <div class="details">
+        {{- partial "markdown" .details }}
+        </div>
+        {{ end }}
+	</div>
+</div>
+{{ end }}
