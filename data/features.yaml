@@ -20,17 +20,27 @@ about:
 skills:
   - groupName: Typography & Markup
     list:
-      - LateX - Markdown
-      - HTML - CSS - Javascript
+      - LaTeX
+      - Markdown
+      - HTML
+      - CSS
+      - Javascript
 
   - groupName: Data Analysis & ML
     list:
-      - Python - PyTorch - Keras - OpenCV
+      - Python
+      - PyTorch
+      - Keras
+      - OpenCV
 
   - groupName: Coding
     list:
-      - C++ - Java - Git - Bash
-      - Wolfram Mathematica - Haskell
+      - C++
+      - Java
+      - Git
+      - Bash
+      - Mathematica
+      - Haskell
 
 interests:
   - Data Science

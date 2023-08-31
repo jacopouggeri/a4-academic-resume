@@ -2,12 +2,33 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px; // Adjust the gap between bubbles
+    font-weight: bold;
+    font-size: 0.9em;
 
     .bubble {
         display: inline-block;
-        padding: 5px 10px; // Adjust padding to control bubble size
-        border-radius: 10px; // Rounded corners
-        background-color: #3498db; // Background color of the bubble
-        color: #ffffff; // Text color
+        border: 1px solid $accent;
+        border-radius: 1em;
+        background-color: $accent;
+        color: $paper;
+        max-width: 7em;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        -webkit-transition: .2s;
+        transition: .2s;
+
+        li {
+            padding: 8em;
+            margin: 0.1em 0.8em 0.1em 0.8em;
+        }
+
+        &:hover {
+            background-color: $paper;
+            color: $accent;
+            -webkit-transition: .2s;
+            transition: .2s;
+        }
     }
+
 }

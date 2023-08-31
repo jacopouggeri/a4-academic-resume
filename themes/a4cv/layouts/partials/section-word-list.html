@@ -25,6 +25,18 @@
 			{{ end }}
 		</dl>
 	</div>
+{{- else if eq .Feature.style "bubbles" -}}
+{{ range $data }}
+	<div class="item">
+		<h2 class="item-title">{{ .groupName }}</h2>
+		<ul class="bubble-list">
+		{{ range .list }}
+		<span class="bubble"><li>{{.}}</li></span>
+		{{ end }}
+		</ul>
+	</div>
+{{ end }}
+
 {{- else -}}
 	{{ range $data }}
 	<div class="item">
