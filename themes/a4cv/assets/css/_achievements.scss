@@ -1,0 +1,19 @@
+table.achievements {
+    width: 100%;
+    border-collapse: collapse;
+
+    th {
+        color: $accent;
+    }
+
+    tr {
+        border-bottom: thin solid $neutral;
+    }
+    
+    th, td {
+        padding: 8px;
+        text-align: left;
+        display: table-cell;
+    }
+    
+}

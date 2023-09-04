@@ -18,13 +18,6 @@ about:
 
 
 skills:
-  - groupName: Typography & Markup
-    list:
-      - LaTeX
-      - Markdown
-      - HTML
-      - CSS
-      - Javascript
 
   - groupName: Data Analysis & ML
     list:
@@ -42,10 +35,25 @@ skills:
       - Mathematica
       - Haskell
 
+  - groupName: Markup
+    list:
+      - LaTeX
+      - Markdown
+      - HTML
+      - CSS
+      - Javascript
+
+  - groupName: Adobe
+    list:
+      - Photoshop
+      - Illustrator
+      - InDesign
+      - PremierePro
+
 interests:
-  - Data Science
-  - AI Applications
-  - Optimization Problems
+  - Gravity
+  - Machine Learning
+  - Languages
 
 languages:
   - name: Italian

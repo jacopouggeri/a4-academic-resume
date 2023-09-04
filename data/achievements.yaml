@@ -1,0 +1,19 @@
+- name: "Japanese Level 3"
+  where: "Imperial Horizons"
+  year: 2022
+  award: "Pass with Merit"
+
+- name: "Jiu-Jitsu"
+  where: "Imperial Jiu-Jitsu"
+  year: 2022
+  award: "Orange Belt"
+
+- name: "Understanding the Nature of Science"
+  where: "Imperial Horizons"
+  year: 2020
+  award: "Pass with Merit"
+
+- name: "Aikido"
+  where: "Aikikai Carpiano"
+  year: 2019
+  award: "5th Kyu"

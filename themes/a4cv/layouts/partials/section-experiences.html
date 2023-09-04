@@ -1,5 +1,4 @@
-{{ range .Data.projects }}
-{{ if not .disable }}
+{{ range .Data.experiences }}
 <div class="item group">
     <div class="flex-row">
 	    <h2 class="item-title">
@@ -11,13 +10,11 @@
         {{ if .date }}<h2 class="date">{{ .date }}</h2>{{ end }}
     </div>
 	<div class="item">
-		<span class="location">{{ .location | markdownify }}</span>
-        {{ if .details }}
+        {{ if and .details (not .collapse) }}
         <div class="details">
         {{- partial "markdown" .details }}
         </div>
         {{ end }}
 	</div>
 </div>
-{{ end }}
 {{ end }}

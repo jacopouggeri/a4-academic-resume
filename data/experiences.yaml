@@ -1,9 +1,23 @@
-experiences:
 - title: "Wolfram Summer School"
-  subtitle:
-  date: "2023"
+  date: 2023
+  collapse: true
   details: |
     - Research experience in the Wolfram Physics project, Causal Set Theory, and General Relativity
-    - First-ever analysis of curved spacetime entropy in the Wolfram Physics Project.
-    - Applied Wolfram language computational tools to obtain the causal graph structure of a Schwarzschild black hole.
-    - Investigated the hypothesis that black hole entropy emerges from the entanglement of the interior and exterior causal graph regions.
+    - First-ever analysis of curved spacetime entropy in the Wolfram Physics Project
+    - Applied Wolfram language computational tools to obtain the causal graph structure of a Schwarzschild black hole
+    - Investigated the hypothesis that black hole entropy emerges from the entanglement of the interior and exterior causal graph regions
+
+- title: "DeepLearn Summer School"
+  subtitle: "4th International school on Deep Learning"
+  date: 2021
+  collapse: true
+  details: |
+    - Attended 38 hours of postgraduate level lectures given by Machine Learning experts from various fields
+    - Learned to comprehend and acquire meaningful information from lectures that assumed more advanced background knowledge than I had
+
+- title: "Building a MRPC muon detector chamber at CERN"
+  date: 2017
+  collapse: true
+  details: |
+    - Worked with peers in a laboratory to assemble a muon detector chamber.
+    - Attended seminars hosted by CERN personnel regarding the present state of particle Physics.

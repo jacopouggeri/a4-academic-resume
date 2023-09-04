@@ -1,3 +1,17 @@
 .contact-links {
     line-height: 2;
 }
+.contact, .contact-links {
+    a {
+        font-weight: 200;
+        color: $text-color;
+        padding: 0 0.2rem;
+        transition: .2s;
+        -webkit-transition: .2s;
+
+        &:hover {
+            color: $paper;
+            background-color: $accent;
+        }
+    }
+}

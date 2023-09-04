@@ -9,7 +9,7 @@ $neutral: $mydove;
 $toprak: $accent;
 $turk: $accent;
 
-$paper: $mywhite;
+$paper: #fff;
 $paper-bg: $mywhite;
 
 @import "base";
@@ -21,4 +21,5 @@ $paper-bg: $mywhite;
 @import "print";
 @import "skill-bar";
 @import "bubbles";
+@import "achievements";
 @import "WIP"

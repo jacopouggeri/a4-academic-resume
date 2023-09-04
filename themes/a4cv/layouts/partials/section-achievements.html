@@ -1,0 +1,20 @@
+<table class="achievements">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Where</th>
+            <th>Year</th>
+            <th>Award</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range .Data.achievements }}
+        <tr>
+            <td>{{ .name }}</td>
+            <td>{{ .where }}</td>
+            <td>{{ .year }}</td>
+            <td>{{ .award }}</td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>

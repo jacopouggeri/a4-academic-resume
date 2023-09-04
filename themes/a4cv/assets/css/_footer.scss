@@ -13,12 +13,12 @@ footer {
         font-weight: 700;
       }
 
-      color: $turk;
+      color: $accent;
       padding: 0 4px;
 
       &:hover {
         color: white;
-        background-color: $turk;
+        background-color: $accent;
         text-decoration: none;
         transition: all 0.35s ease-out;
         transition-property: all 0.35s ease-out;

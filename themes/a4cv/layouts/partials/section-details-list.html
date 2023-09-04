@@ -15,7 +15,7 @@
 	{{- else if .date }}
 		{{- .date }}
 	{{- end }}</span>
-	{{ if .details }}
+	{{ if and .details (not .collapse) }}
 		<div class="details">
 		{{- partial "markdown" .details }}
 		</div>

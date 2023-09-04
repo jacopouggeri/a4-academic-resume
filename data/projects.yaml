@@ -21,3 +21,28 @@
     - Developed critical scientific thinking and research skills.
     - Reached positive and encouraging conclusions.
     - Mark: First Class
+
+- title: Search for Beyond SM Physics from LHCb Data
+  disable: true
+  location: Group Project at Imperial College London
+  date: "2021"
+  details: |
+    - Involved coordinating with other ~20 students to analyze data from LHCb experiment.
+    - Participated in group discussions and contributed meaningful ideas.
+    - Main role was to train a decision tree model to separate background from signal.
+
+- title: Improving people counter image recognition neural network
+  location: Summer work experience at [GrottiniLab](https://www.grottinilab.com/en/) with Politecnico di Ancona
+  date: "2020"
+  details: |
+    - Was assigned to a software engineer working on a ”people counter” neural network, with the aim of exploring new avenues of improvement
+    -  Reviewed literature on the current state of the art of image recognition neural networks
+    - Proposed and coded a new data augmentation strategy to improve the product.
+
+- title: Critical Temperature of an Ising Model on a Sierpinski Gasket 
+  location: Summer Project at Imperial College London
+  date: "2020"
+  details: |
+    - Worked remotely with a peer to simulate an Ising model on a Sierpinski gasket network
+    - Wrote Python code to run, visualize and analyze the simulation, and numerically evaluated the model’s critical temperature and the corresponding critical exponent
+    - Delivered a video summary of the project and a project report

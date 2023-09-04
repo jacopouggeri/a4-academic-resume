@@ -1,16 +1,17 @@
 {{ range .Data.education }}
+{{ if not .disable }}
 <div class="item">
 	{{ if $.IsSide }}
-	<h2 class="item-title">{{ .name }}</h2>
-	<span>{{ .university }}</span><br>
-	{{ if .location }}<span>{{ .location }}</span><br>{{ end }}
-	<span>{{ .date }}{{ if .gpa }} | GPA: {{ .gpa }}{{ end }}</span>
-	{{ if .more }}<span>{{ .more }}</span><br>{{ end }}
+		<h2 class="item-title">{{ .name }}</h2>
+		<span>{{ .university }}</span><br>
+		{{ if .location }}<span>{{ .location }}</span><br>{{ end }}
+		<span>{{ .date }}{{ if .gpa }} | Avg: {{ .gpa }}{{ end }}</span>
+		{{ if .more }}<span>{{ .more }}</span><br>{{ end }}
 	{{ else }}
-	<h2 class="item-title">{{ .name }} </h2>
+	<h2 class="item-title">{{ .name }} {{ if .gpa }}|  <span class="item-subtitle">{{ .gpa }}</span>  {{ end }} </h2>
 	<div class="item">
 		<div class="flex-row">
-			<span class="location">{{ .university }}, {{ .location }} </span>
+			<span class="location">{{ .university }}{{ if .location }},&nbsp;{{ .location }} {{ end }} </span>
 			<span class="date">{{ .date }}</span>
 		</div>
 		{{ if .details }}
@@ -21,4 +22,5 @@
 	</div>
 	{{ end }}
 </div>
+{{ end }}
 {{ end }}

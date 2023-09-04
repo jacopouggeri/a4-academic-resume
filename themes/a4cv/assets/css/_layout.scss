@@ -45,7 +45,13 @@
   .flex-row {
     display: flex;
     flex-direction: row;
+    font-weight: bold;
     justify-content: space-between;
+    color: $accent;
+  }
+
+  .item-title {
+    color: $text-color;
   }
 }
 

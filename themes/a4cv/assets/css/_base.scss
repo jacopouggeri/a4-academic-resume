@@ -13,7 +13,7 @@ body {
 
 a {
   text-decoration: none;
-  color: $text-color;
+  color: currentColor;
   box-shadow: 0 2px 0 $accent;
 
 
@@ -26,7 +26,8 @@ a {
   }
 
   &:not(.no-external-icon)::after {
-    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+    font-family: 'Font Awesome 5 Free';
+    content: '\f0c1';
     margin: 0 0.2rem 0 0.25rem;
   }
 }
