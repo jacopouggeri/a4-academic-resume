@@ -16,7 +16,7 @@
 	{{ if ne .Footer.footnote "" }}
 	{{ .Footer.footnote }} | 
 	{{ end }}
-	<a href="#" id="print-link" class="no-external-icon"><span>Save as PDF</span>&nbsp;<i class="fa fa-file-pdf"></i></a> | Last updated on {{ .Site.LastChange.Format "2 January 2006" }}
+	<a href="#" id="print-link" class="no-external-icon"><span>Save as PDF</span>&nbsp;<i class="fa fa-file-pdf"></i></a> | Last updated on {{ .Footer.lastUpdate }}
 	<script>
 		document.getElementById('print-link').addEventListener('click', function(event) {
 			event.preventDefault(); // Prevent the default link behavior
