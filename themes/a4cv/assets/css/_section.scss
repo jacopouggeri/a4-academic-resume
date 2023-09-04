@@ -120,3 +120,16 @@ main.paper .left-column,
   margin: 0; /* Remove default margin to control spacing */
   padding-left: 20px; /* Add some left padding for indentation */
 }
+
+.location a {
+  box-shadow: none;
+}
+
+.supervisor {
+  font-weight: bold;
+  color: $accent;
+
+  a {
+    box-shadow: none;
+  }
+}

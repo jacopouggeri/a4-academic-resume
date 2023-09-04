@@ -1,9 +1,12 @@
 {{ range .Data.experiences }}
+{{ if not .disable }}
 <div class="item group">
     <div class="flex-row">
 	    <h2 class="item-title">
             {{if .link}}<a href="{{ .link }}" >{{end}}
-                {{ .title }} <br>
+                {{ .title }} 
+                {{ if .certificate }} <a href="{{ .certificate }}" class="no-external-icon"><i class="fa fa-certificate"></i></a> {{ end }}
+                <br>
                 {{ if .subtitle }} <span class="item-subtitle">{{ .subtitle }}</span>{{ end }}
             {{if .link}}</a>{{end}}
         </h2>
@@ -17,4 +20,5 @@
         {{ end }}
 	</div>
 </div>
+{{ end }}
 {{ end }}

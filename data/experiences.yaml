@@ -1,4 +1,6 @@
 - title: "Wolfram Summer School"
+  link: "https://education.wolfram.com/summer-school"
+  certificate: "http://jacopouggeri.github.io/docs/cv/wss.pdf"
   date: 2023
   collapse: true
   details: |
@@ -8,16 +10,29 @@
     - Investigated the hypothesis that black hole entropy emerges from the entanglement of the interior and exterior causal graph regions
 
 - title: "DeepLearn Summer School"
+  link: "https://irdta.eu/deeplearn-events/"
   subtitle: "4th International school on Deep Learning"
+  certificate: "http://jacopouggeri.github.io/docs/cv/deeplearn.pdf"
   date: 2021
   collapse: true
   details: |
     - Attended 38 hours of postgraduate level lectures given by Machine Learning experts from various fields
     - Learned to comprehend and acquire meaningful information from lectures that assumed more advanced background knowledge than I had
 
-- title: "Building a MRPC muon detector chamber at CERN"
+- title: "Project Extreme Energy Events (EEE)"
+  date: 2013 – 2019
+  certificate: "http://jacopouggeri.github.io/docs/cv/eee.pdf"
+  disable: true
+  details: |
+    - Long running project organized by INFN involving multiple Italian high schools
+    - Participated in the data taking and analysis process for a MRPC muon detector
+    - Attended lectures and conferences on particle Physics.
+    - Participated in joint conferences between participating schools summarizing recent results
+
+- title: "Building a MRPC Muon Detector Chamber at CERN"
   date: 2017
+  certificate: "http://jacopouggeri.github.io/docs/cv/eee.pdf"
   collapse: true
   details: |
-    - Worked with peers in a laboratory to assemble a muon detector chamber.
-    - Attended seminars hosted by CERN personnel regarding the present state of particle Physics.
+    - Worked with peers in a laboratory to assemble a muon detector chamber
+    - Attended seminars hosted by CERN personnel regarding the present state of particle Physics

@@ -1,7 +1,11 @@
 - company: Imperial College London
   roles:
     - role: Graduate Teaching Assistant
-      date: "October 2022 -  March 2023"
+      date: "October 2022 - March 2023"
+- company: Freelance Tutoring
+  roles:
+    - role: Maths and Physics
+      date: "2018 - 2019"
 
 #- company: Google
 #  roles: 

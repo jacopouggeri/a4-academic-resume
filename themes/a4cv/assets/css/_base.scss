@@ -15,7 +15,8 @@ a {
   text-decoration: none;
   color: currentColor;
   box-shadow: 0 2px 0 $accent;
-
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
 
   i {
     padding: 0 0.2rem 0 0.25rem;

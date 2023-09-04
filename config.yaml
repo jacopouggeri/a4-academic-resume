@@ -65,9 +65,9 @@ params:
     - feature: skills
       widget: word-list
       style: bubbles # list, compact, title-list
-    - feature: interests
-      widget: word-list
-      style: list
+    #- feature: interests
+    #  widget: word-list
+    #  style: list
   pages:
     - features:
         - feature: about

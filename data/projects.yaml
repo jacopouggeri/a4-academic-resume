@@ -1,43 +1,45 @@
-- title: "Black Hole Entanglement Entropy From Causal Graphs"
+- title: "Black Hole Entanglement Entropy from Causal Graphs"
   subtitle:
   location: "Wolfram Summer School"
-  supervisor: "Jonathan Gorard"
+  supervisor: "Mentor: [Jonathan Gorard](https://www.wolframphysics.org/people/jonathan-gorard/)"
   date: "2023"
+  link: "https://community.wolfram.com/groups/-/m/t/2959318?p_p_auth=Bi9ObgWO"
   details: |
     - Research experience in the Wolfram Physics project, Causal Set Theory, and General Relativity
-    - First-ever analysis of curved spacetime entropy in the Wolfram Physics Project.
-    - Applied Wolfram language computational tools to obtain the causal graph structure of a Schwarzschild black hole.
-    - Investigated the hypothesis that black hole entropy emerges from the entanglement of the interior and exterior causal graph regions.
+    - First-ever analysis of curved spacetime entropy in the Wolfram Physics Project
+    - Applied Wolfram language computational tools to obtain causal graph structure of a Schwarzschild black hole
+    - Investigated the hypothesis that black hole entropy emerges from the entanglement of the interior and exterior causal graph regions
 
 - title: "Shining Light on Missing Red Giants"
   subtitle: "Red Giant Photoevaporation in the Galactic Centre"
   location: "Imperial College London"
-  supervisor: "James Owen"
+  supervisor: "Supervisor: [James Owen](https://www.imperial.ac.uk/people/james.owen)"
   link: "https://jacopouggeri.github.io/msci/"
   date: "2022 — 2023"
   details: |
-    - Determined the photoevaporation rate of red giants around supermassive black holes and how it affects their evolution.
-    - Computational and theoretical project: designed, wrote, and tested shareable code.
-    - Developed critical scientific thinking and research skills.
-    - Reached positive and encouraging conclusions.
-    - Mark: First Class
+    - Determined the photoevaporative rate of red giants around supermassive black holes and its effect on their evolution
+    - Computational and theoretical project: designed, wrote, and tested shareable code
+    - Developed critical scientific thinking and research skills
+    - Reached positive and encouraging conclusions
+    - Final Mark: First Class Honours
 
 - title: Search for Beyond SM Physics from LHCb Data
   disable: true
   location: Group Project at Imperial College London
   date: "2021"
   details: |
-    - Involved coordinating with other ~20 students to analyze data from LHCb experiment.
-    - Participated in group discussions and contributed meaningful ideas.
-    - Main role was to train a decision tree model to separate background from signal.
+    - Involved coordinating with other ~20 students to analyze data from LHCb experiment
+    - Participated in group discussions and contributed meaningful ideas
+    - Main role was to train a decision tree model to separate background from signal
 
-- title: Improving people counter image recognition neural network
-  location: Summer work experience at [GrottiniLab](https://www.grottinilab.com/en/) with Politecnico di Ancona
+- title: Improving People Counter Image Recognition Neural Network
+  certificate: "http://jacopouggeri.github.io/docs/cv/grottini.pdf"
+  location: Summer work experience at GrottiniLab with Politecnico di Ancona
   date: "2020"
   details: |
     - Was assigned to a software engineer working on a ”people counter” neural network, with the aim of exploring new avenues of improvement
     -  Reviewed literature on the current state of the art of image recognition neural networks
-    - Proposed and coded a new data augmentation strategy to improve the product.
+    - Proposed and coded a new data augmentation strategy to improve the product
 
 - title: Critical Temperature of an Ising Model on a Sierpinski Gasket 
   location: Summer Project at Imperial College London
