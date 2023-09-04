@@ -61,7 +61,7 @@
 
 	{{ if .Site.Params.footer.show }}
 	<footer>
-		{{ partial "footer" (dict "Footer" .Site.Params.footer "useFontAwesome" .Site.Params.useFontAwesome) }}
+		{{ partial "footer" (dict "Footer" .Site.Params.footer "useFontAwesome" .Site.Params.useFontAwesome "Site" .Site) }}
 	</footer>
 	{{ end }}
 </body>

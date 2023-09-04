@@ -1,6 +1,6 @@
 baseURL: "/"
-languageCode: "en-us"
-title: "Jacopo Uggeri | Resume"
+languageCode: "en-uk"
+title: "Jacopo Uggeri | CV"
 disableKinds: ["taxonomy", "term", "page", "section", "RSS", "sitemap", "robotsTXT", "404"]
 theme: "a4cv"
 enableGitInfo: true
