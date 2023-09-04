@@ -65,5 +65,5 @@ This project is open-sourced and licensed under the terms of the MIT license. I 
 1. Make changes.
 2. Delete `resources` folder in main project.
 2. Build your hugo site using the theme. `hugo server`
-3. Copy `resources` folder from main project to theme folder `themes\resume-A4\resources`
+3. Copy `resources` folder from main project to theme folder `themes\a4cv\resources`
 4. `git commit` and `git push`.
