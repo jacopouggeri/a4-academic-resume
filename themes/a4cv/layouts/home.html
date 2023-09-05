@@ -48,6 +48,12 @@
 					{{ partial "section" (dict "Feature" . "Data" $.Site.Data "useFontAwesome" $.Site.Params.useFontAwesome "IsSide" true) }}
 				{{ end }}
 			</div>
+
+			{{ if .Site.Params.privacy }}
+			<div class="privacy">
+				{{- partial "markdown" .Site.Data.features.privacy }}
+			</div>
+			{{ end }}
 		</div>
 	</main>
 
