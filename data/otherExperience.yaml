@@ -1,0 +1,17 @@
+- title: Imperial Eco-Marathon
+  location: Imperial College London, Simulation Team
+  date: "2023"
+  details: |
+    - Participated in the Imperial team competing in the Shell Eco-Marathon competition
+    - Applied physics and mathematical principles to advise the team on the theoretical aspects of the simulations
+    - Enhanced cross-disciplinary communication and teamwork skills through collaboration with students from diverse academic backgrounds.
+
+- title: Improving People Counter Image Recognition Neural Network
+  disable: true
+  certificate: "http://jacopouggeri.github.io/docs/cv/grottini.pdf"
+  location: Summer work experience at GrottiniLab with Politecnico di Ancona
+  date: "2020"
+  details: |
+    - Was assigned to a software engineer working on a ”people counter” neural network, with the aim of exploring new avenues of improvement
+    - Reviewed literature on the current state of the art of image recognition neural networks
+    - Proposed and coded a new data augmentation strategy to improve the product

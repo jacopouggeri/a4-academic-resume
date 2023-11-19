@@ -6,8 +6,10 @@
   more:
   gpa :
   details: |
-    - Theoretical physics course designed to start a research career
-    - Will acquire unique insight into topics including the unification of fundamental forces, the early universe, quantum gravity, and quantum field theory.
+    - Program designed to provide a deep and comprehensive understanding of the fundamental aspects of modern theoretical physics, preparing for a research-focused career in the field
+    - Modules include: Particle Symmetries, Differential Geometry, QED, Advanced QFT, Black Holes, String Theory, Supersymmetry
+    - Attended weekly seminars in the Theoretical Physics Group
+    - Terminates with a 3-month research project
 
 - name: "Msci Physics with Theoretical Physics"
   university: "Imperial College London"
@@ -16,9 +18,8 @@
   date: "2019 — 2023"
   gpa: "67.08/100"
   details: |
-    - Achieved First Class in theoretical modules: Mathematical Methods, Foundations of Quantum Mechanics, Advanced Classical Physics, Group Theory, Nuclear and Particle Physics, Statistical Mechanics, GR
-    - Achieved First Class Honours in 4th Year
-
+    - Achieved First Class Honours in theoretical modules: Mathematical Methods, Foundations of Quantum Mechanics, Advanced Classical Physics, Group Theory, Nuclear and Particle Physics, Statistical Mechanics, General Relativity
+    - Completed final year with First Class Honours, with a successful research project on red giant photoevaporation in the Galactic Centre
 
 - name: "Diploma di Liceo Scientifico Tradizionale" 
   university: "Liceo Scientifico Giovanni Gandini"
@@ -26,5 +27,5 @@
   date: "2013 — 2019"
   gpa: "100/100"
   details: |
-    - Scientifically oriented high school program with a wide range of subjects spanning both sciences and humanities
-    - Participated in extracurricular events and activities with a focus on Physics and Mathematics
+    - Scientifically oriented high school program spanning both sciences and humanities
+    - Actively participated in extracurricular events and activities with a focus on Physics and Mathematics

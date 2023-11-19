@@ -55,13 +55,11 @@ params:
     - custom.scss
 #   - print_urls.scss
   header:
-    avatar: img/profile.jpeg
+    avatar: #img/profile.jpeg
     contact: true
     tagline: true
     links: true
   side:
-    - feature: proExperience
-      title: Professional Experience
     - feature: languages
     - feature: skills
       widget: word-list
@@ -77,8 +75,12 @@ params:
         - feature: experiences
           collection: experiences
     - features:
-        - feature: projects
-        - feature: achievements
+        - feature: researchExperience
+          title: Research Experience
+        - feature: otherExperience
+          title: Other Experience
+        - feature: proExperience
+          title: Professional Experience
         #- feature: publications
           #style: IEEE # IEEE, APA, else
         #- feature: awards

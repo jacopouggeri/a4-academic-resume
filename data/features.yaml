@@ -4,6 +4,9 @@ about:
   phone:
   email: jacopo.uggeri@gmail.com
   links:
+    - title: Website
+      url: jacopouggeri.github.io
+      icon: fa-solid fa-user
     - title: LinkedIn
       url: https://linkedin.com/in/jacopouggeri000
       icon: fab fa-linkedin
@@ -14,7 +17,7 @@ about:
       url: https://youtube.com/@jacopouggeri
       icon: fab fa-youtube
   details: |
-    I am a curiosity driven and passionate student with a strong interest in theoretical physics and cosmology. I am currently studying for a Master's degree in Quantum Fields and Fundamental Forces at Imperial College London. I am looking for a PhD position in Theoretical Physics, starting in 2024. Outside of physics, my interests extend to computer science, machine learning, and graphic design. I also enjoy tavelling and learning about new languages and cultures.
+    I am a passionate and curiosity-driven student pursuing a Master's in Quantum Fields and Fundamental Forces at Imperial College London, actively seeking a PhD opportunity in Theoretical Physics for 2024. My current interests are in quantum gravity and cosmology. I am eager to engage with the academic community, bringing a strong foundation in theoretical physics and interdisciplinary interests in computer science and machine learning.
 
 skills:
 
@@ -79,32 +82,32 @@ languages:
 
 # This will use the default widget: "details-list"
 awards:
-  - title: "Tübitak - Graduation Project"
-    date: "2017"
-    subtitle: "A Decision Support System for 3D Cutting Problem"
-    #details: |
-    #   - add more here if you like to.
-    #   - or just comment out/delete the field.
-    links:
-      - title: example
-        url: https://mertbakir.gitlab.io
-        icon: fas fa-bolt
-        prefix: "This is an " # use quotation marks if you want to pass the tailing space.
-      - title: second link.
+#  - title: "Tübitak - Graduation Project"
+#    date: "2017"
+#    subtitle: "A Decision Support System for 3D Cutting Problem"
+#    #details: |
+#    #   - add more here if you like to.
+#    #   - or just comment out/delete the field.
+#    links:
+#      - title: example
+#        url: https://mertbakir.gitlab.io
+#        icon: fas fa-bolt
+#        prefix: "This is an " # use quotation marks if you want to pass the tailing space.
+#      - title: second link.
         url: https://esdfdsfdsf
         icon: "-" # you can get rid of the icon by entering dummy text
         prefix: "omg"
 
 certificates:
-  - title: "Supervised Learning: Regression"
-    subtitle: Coursera
-    date: "2020"
-    link: https://xkcd.com/605/ # This link will be on title level.
+#  - title: "Supervised Learning: Regression"
+#    subtitle: Coursera
+#    date: "2020"
+#    link: https://xkcd.com/605/ # This link will be on title level.
 
-  - title: "Supervised Learning: Classification"
-    subtitle: Coursera
-    date: "2020"
-    link: https://xkcd.com/388/
+#  - title: "Supervised Learning: Classification"
+#    subtitle: Coursera
+#    date: "2020"
+#    link: https://xkcd.com/388/
 
-privacy: |
-  In compliance with the Italian legislative Decree no. 196 dated 30/06/2003, I hereby authorize you to use and process my personal details contained in this document.
+#privacy: |
+#  In compliance with the Italian legislative Decree no. 196 dated 30/06/2003, I hereby authorize you to use and process my personal details contained in this document.

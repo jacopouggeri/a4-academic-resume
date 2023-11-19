@@ -6,22 +6,22 @@
   link: "https://community.wolfram.com/groups/-/m/t/2959318?p_p_auth=Bi9ObgWO"
   details: |
     - Research experience in the Wolfram Physics project, Causal Set Theory, and General Relativity
-    - First-ever analysis of curved spacetime entropy in the Wolfram Physics Project
-    - Applied Wolfram language computational tools to obtain causal graph structure of a Schwarzschild black hole
+    - Completed first-ever analysis of curved spacetime entropy in the Wolfram Physics Project
+    - Applied numerical GR tools in Wolfram Language to obtain causal structure of a Schwarzschild black hole
     - Investigated the hypothesis that black hole entropy emerges from the entanglement of the interior and exterior causal graph regions
 
-- title: "Shining Light on Missing Red Giants"
+- title: "Shining Light on Missing Red Giants:"
   subtitle: "Red Giant Photoevaporation in the Galactic Centre"
   location: "Imperial College London"
   supervisor: "Supervisor: [James Owen](https://www.imperial.ac.uk/people/james.owen)"
   link: "https://jacopouggeri.github.io/msci/"
   date: "2022 — 2023"
   details: |
-    - Determined the photoevaporative rate of red giants around supermassive black holes and its effect on their evolution
+    - Investigated the impact of photoevaporation on red giants in proximity to supermassive black holes
     - Computational and theoretical project: designed, wrote, and tested shareable code
-    - Developed critical scientific thinking and research skills
-    - Reached positive and encouraging conclusions
-    - Final Mark: First Class Honours
+    - Produced a comprehensive analysis, concluding that photoevaporation can significantly influence red giant evolution.
+    - Created and presented a highly commended poster and viva presentation, demonstrating effective communication and visualization skills.
+    - Awarded First Class Honours for the project
 
 - title: Search for Beyond SM Physics from LHCb Data
   disable: true
@@ -32,19 +32,10 @@
     - Participated in group discussions and contributed meaningful ideas
     - Main role was to train a decision tree model to separate background from signal
 
-- title: Improving People Counter Image Recognition Neural Network
-  certificate: "http://jacopouggeri.github.io/docs/cv/grottini.pdf"
-  location: Summer work experience at GrottiniLab with Politecnico di Ancona
-  date: "2020"
-  details: |
-    - Was assigned to a software engineer working on a ”people counter” neural network, with the aim of exploring new avenues of improvement
-    -  Reviewed literature on the current state of the art of image recognition neural networks
-    - Proposed and coded a new data augmentation strategy to improve the product
-
 - title: Critical Temperature of an Ising Model on a Sierpinski Gasket 
   location: Summer Project at Imperial College London
   date: "2020"
   details: |
     - Worked remotely with a peer to simulate an Ising model on a Sierpinski gasket network
-    - Wrote Python code to run, visualize and analyze the simulation, and numerically evaluated the model’s critical temperature and the corresponding critical exponent
+    - Wrote Python code to run, visualize and analyze the simulation, and numerically evaluated the model's critical temperature and the corresponding critical exponent
     - Delivered a video summary of the project and a project report

@@ -7,6 +7,7 @@ body {
   background: $paper-bg;
   color: $text-color;
   font-family: $font-1;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -35,9 +36,8 @@ a {
 
 li {
   list-style-type: square;
-  padding-left: 0px;
   list-style-position: inside;
-  margin: 0.5rem 0;
+  line-height: 1.5;
 }
 
 /* Enable background printing in browsers */
