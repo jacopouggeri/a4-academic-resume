@@ -33,6 +33,7 @@
     - Main role was to train a decision tree model to separate background from signal
 
 - title: Critical Temperature of an Ising Model on a Sierpinski Gasket 
+  disable: true
   location: Summer Project at Imperial College London
   date: "2020"
   details: |
