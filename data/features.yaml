@@ -94,9 +94,9 @@ awards:
 #        icon: fas fa-bolt
 #        prefix: "This is an " # use quotation marks if you want to pass the tailing space.
 #      - title: second link.
-        url: https://esdfdsfdsf
-        icon: "-" # you can get rid of the icon by entering dummy text
-        prefix: "omg"
+        #url: https://esdfdsfdsf
+        #icon: "-" # you can get rid of the icon by entering dummy text
+        #prefix: "omg"
 
 certificates:
 #  - title: "Supervised Learning: Regression"
