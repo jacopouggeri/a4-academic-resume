@@ -6,6 +6,15 @@
     - Applied physics and mathematical principles to advise the team on the theoretical aspects of the simulations
     - Enhanced cross-disciplinary communication and teamwork skills through collaboration with students from diverse academic backgrounds.
 
+- title: Search for Beyond SM Physics from LHCb Data
+  disable: false
+  location: Group Project at Imperial College London
+  date: "2021"
+  details: |
+    - Involved coordinating with other ~20 students to analyze data from LHCb experiment
+    - Participated in group discussions and contributed meaningful ideas
+    - Main role was to train a decision tree model to separate background from signal
+
 - title: Improving People Counter Image Recognition Neural Network
   certificate: "http://jacopouggeri.github.io/docs/cv/grottini.pdf"
   location: Summer work experience at GrottiniLab with Politecnico di Ancona

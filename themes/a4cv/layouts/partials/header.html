@@ -2,21 +2,7 @@
 	{{ with .Data.features.about }}
 		<h1 class="name">{{ .name }}</h1>
 		{{ if $.Header.tagline }}<h2 class="tagline">{{ .tagline }}</h2>{{end}}
-		{{ if $.Header.contact -}}
-			<span class="contact">
-				{{- with .phone -}}
-					{{- if $.useFontAwesome }}<i class="fas fa-phone-square-alt"></i> {{ end -}}
-					{{- . -}}
-				{{- end -}}
-				{{- if and .phone .email }} | {{ end -}}
-				{{- with .email -}}
-					<a href="mailto:{{- . -}}" class="no-external-icon">
-						{{- if $.useFontAwesome }}<i class="fas fa-envelope"></i> {{ end -}}
-						{{- . -}}
-					</a>
-				{{- end -}}
-			</span>
-		{{- end }}
+		<div class="flex-row">
 		{{ if $.Header.links -}}
 			<span class="contact-links">
 				{{- $last := sub (len .links) 1 -}}
@@ -29,6 +15,22 @@
 				{{- end -}}
 			</span>
 		{{ end }}
+		{{ if $.Header.contact -}}
+		<span class="contact">
+			{{- with .phone -}}
+				{{- if $.useFontAwesome }}<i class="fas fa-phone-square-alt"></i> {{ end -}}
+				{{- . -}}
+			{{- end -}}
+			{{- if and .phone .email }} | {{ end -}}
+			{{- with .email -}}
+				<a href="mailto:{{- . -}}" class="no-external-icon">
+					{{- if $.useFontAwesome }}<i class="fas fa-envelope"></i> {{ end -}}
+					{{- . -}}
+				</a>
+			{{- end -}}
+		</span>
+		{{- end }}
+		</div>
 	{{ end }}
 </div>
 {{ if .Header.avatar }}

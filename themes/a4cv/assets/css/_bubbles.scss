@@ -5,29 +5,37 @@
     font-weight: bold;
     font-size: 0.9em;
 
-    .bubble {
+    .bubble, .bubble-title {
         display: inline-block;
         border: 1px solid $accent;
         border-radius: 1em;
-        background-color: $accent;
-        color: $paper;
         max-width: 7em;
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
         -webkit-transition: .2s;
         transition: .2s;
+        padding: 0.2em 0.8em;
+        margin: 0.1em 0.1em;
+    }
 
-        li {
-            padding: 8em;
-            margin: 0.1em 0.8em 0.1em 0.8em;
+    .bubble-title {
+        background-color: $paper;
+        color: $accent;
+
+        &:hover {
+            background-color: $accent;
+            color: $paper;
         }
+    }
+
+    .bubble {
+        background-color: $accent;
+        color: $paper;
 
         &:hover {
             background-color: $paper;
             color: $accent;
-            -webkit-transition: .2s;
-            transition: .2s;
         }
     }
 

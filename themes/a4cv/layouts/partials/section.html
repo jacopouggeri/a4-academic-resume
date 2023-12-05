@@ -1,5 +1,22 @@
+{{ if eq .Feature.feature "doubleColumn" }}
+
+<div class="flex-row double-column">
+	{{ range .Feature.features }}
+		{{ if eq .feature "languages"}}
+		<div class="flex-1">
+		{{ else }}
+		<div class="flex-3">
+		{{ end }}
+		{{ partial "section" (dict "Feature" . "Data" $.Data "useFontAwesome" $.useFontAwesome) }}
+
+		</div>
+	{{ end }}
+</div>
+
+{{ else }}
+
 <div class="section section-{{ .Feature.feature }}">
-	<!-- Remove publications section -->
+
 	{{- if or (not (isset .Feature "title")) .Feature.title -}}
 	<h1 class="section-title">{{ .Feature.title | default (title .Feature.feature) }}</h1>
 	{{- end -}}
@@ -10,4 +27,7 @@
 	{{- else -}}
 	{{ partial $partial . }}
 	{{- end -}}
+
 </div>
+
+{{ end }}

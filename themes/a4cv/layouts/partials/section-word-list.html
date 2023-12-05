@@ -26,16 +26,19 @@
 		</dl>
 	</div>
 {{- else if eq .Feature.style "bubbles" -}}
+
+<div class="flex-row">
 {{ range $data }}
-	<div class="item">
-		<h2 class="item-title">{{ .groupName }}</h2>
-		<ul class="bubble-list">
+	<div class="item flex-{{ .flexSpan }}">
+		<div class="bubble-list">
+		<span class="bubble-title">{{ .groupName }}</span>
 		{{ range .list }}
-		<span class="bubble"><li>{{.}}</li></span>
+		<span class="bubble">{{.}}</span>
 		{{ end }}
-		</ul>
+		</div>
 	</div>
 {{ end }}
+</div>
 
 {{- else -}}
 	{{ range $data }}

@@ -51,6 +51,7 @@ params:
   useFlagIcons: true # https://flagicons.lipis.dev/
   workInProgress: false # display work in progress
   privacy: false
+  singleColumn: true
   css:
     - custom.scss
 #   - print_urls.scss
@@ -69,18 +70,23 @@ params:
     #  style: list
   pages:
     - features:
-        - feature: about
-          title: About Me
         - feature: education
-        - feature: experiences
-          collection: experiences
-    - features:
         - feature: researchExperience
           title: Research Experience
-        - feature: otherExperience
-          title: Other Experience
+    - features:
         - feature: proExperience
           title: Professional Experience
+        - feature: otherExperience
+          title: Other Experience
+        - feature: experiences
+          collection: experiences
+        - feature: doubleColumn
+          features:
+            - feature: languages
+            - feature: skills
+              widget: word-list
+              style: bubbles
+
         #- feature: publications
           #style: IEEE # IEEE, APA, else
         #- feature: awards

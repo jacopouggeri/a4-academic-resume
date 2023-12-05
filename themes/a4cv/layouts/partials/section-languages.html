@@ -3,10 +3,14 @@
 	<h2 class="item-title">
 		<span class="fi fi-{{ .icon }}"></span>
 		<span class="item-name">{{- .name -}}</span>
+		{{ if .skillBar }}
 		<div class="skill-bar">
 			<div class="background-box"></div>
 			<div class="progress-box level-{{ .level }}"></div>
 		</div>
+		{{ else }}
+        <span class="level">– {{ index $.Data.languageLevels.levels .level }}</span>
+        {{ end }}
 		<!-- <span> - {{ .level }}</span> -->
 	</h2>
 	{{ range .certificates }}

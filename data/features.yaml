@@ -21,14 +21,8 @@ about:
 
 skills:
 
-  - groupName: Data Analysis & ML
-    list:
-      - Python
-      - PyTorch
-      - Keras
-      - OpenCV
-
   - groupName: Coding
+    flexSpan: 20
     list:
       - C++
       - Java
@@ -38,6 +32,7 @@ skills:
       - Haskell
 
   - groupName: Markup
+    flexSpan: 15
     list:
       - LaTeX
       - Markdown
@@ -45,12 +40,21 @@ skills:
       - CSS
       - Javascript
 
-  - groupName: Adobe
+  - groupName: M. Learning
+    flexSpan: 15
     list:
-      - Photoshop
-      - Illustrator
-      - InDesign
-      - PremierePro
+      - Python
+      - PyTorch
+      - Keras
+      - OpenCV
+
+#  - groupName: Adobe
+#    flexSpan: 15
+#    list:
+#      - Photoshop
+#      - Illustrator
+#      - InDesign
+#      - PremierePro
 
 interests:
   - Gravity

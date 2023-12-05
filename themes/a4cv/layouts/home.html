@@ -29,40 +29,74 @@
 		<i class="fas fa-tools"></i>&nbsp; WIP
 	</div>
 	{{ end }}
-	<main class="paper">
-		<div class="grid">
-			<header class="flex-row">
-				{{ partial "header" (dict "Header" .Site.Params.header "Data" .Site.Data "useFontAwesome" .Site.Params.useFontAwesome) }}
-			</header>
+	{{ if .Site.Params.singleColumn }}
+	
+		<article class="paper">
+			<div class="grid">
+				<header>
+					{{ partial "header" (dict "Header" .Site.Params.header "Data" .Site.Data "useFontAwesome" .Site.Params.useFontAwesome) }}
+				</header>
 
-			{{ range first 1 .Site.Params.pages }}
-			<div class="left-column">
-				{{ range .features }}
-					{{ partial "section" (dict "Feature" . "Data" $.Site.Data "useFontAwesome" $.Site.Params.useFontAwesome) }}
+				{{ range first 1 .Site.Params.pages }}
+					{{ range .features }}
+						{{ partial "section" (dict "Feature" . "Data" $.Site.Data "useFontAwesome" $.Site.Params.useFontAwesome) }}
+					{{ end }}
 				{{ end }}
-			</div>
-			{{ end }}
 
-			<div class="right-column">
-				{{ range .Site.Params.side }}
-					{{ partial "section" (dict "Feature" . "Data" $.Site.Data "useFontAwesome" $.Site.Params.useFontAwesome "IsSide" true) }}
+				{{ if .Site.Params.privacy }}
+				<div class="privacy">
+					{{- partial "markdown" .Site.Data.features.privacy }}
+				</div>
 				{{ end }}
-			</div>
+			</article>
+		</main>
 
-			{{ if .Site.Params.privacy }}
-			<div class="privacy">
-				{{- partial "markdown" .Site.Data.features.privacy }}
-			</div>
+		{{ range after 1 .Site.Params.pages }}
+		<article class="paper">
+			{{ range .features }}
+				{{ partial "section" (dict "Feature" . "Data" $.Site.Data "useFontAwesome" $.Site.Params.useFontAwesome) }}
 			{{ end }}
-		</div>
-	</main>
-
-	{{ range after 1 .Site.Params.pages }}
-	<article class="paper">
-		{{ range .features }}
-			{{ partial "section" (dict "Feature" . "Data" $.Site.Data "useFontAwesome" $.Site.Params.useFontAwesome) }}
+		</article>
 		{{ end }}
-	</article>
+
+	{{ else }}
+
+		<main class="paper">
+			<div class="grid">
+				<header class="flex-row">
+					{{ partial "header" (dict "Header" .Site.Params.header "Data" .Site.Data "useFontAwesome" .Site.Params.useFontAwesome) }}
+				</header>
+
+				{{ range first 1 .Site.Params.pages }}
+				<div class="left-column">
+					{{ range .features }}
+						{{ partial "section" (dict "Feature" . "Data" $.Site.Data "useFontAwesome" $.Site.Params.useFontAwesome) }}
+					{{ end }}
+				</div>
+				{{ end }}
+
+				<div class="right-column">
+					{{ range .Site.Params.side }}
+						{{ partial "section" (dict "Feature" . "Data" $.Site.Data "useFontAwesome" $.Site.Params.useFontAwesome "IsSide" true) }}
+					{{ end }}
+				</div>
+
+				{{ if .Site.Params.privacy }}
+				<div class="privacy">
+					{{- partial "markdown" .Site.Data.features.privacy }}
+				</div>
+				{{ end }}
+			</div>
+		</main>
+
+		{{ range after 1 .Site.Params.pages }}
+		<article class="paper">
+			{{ range .features }}
+				{{ partial "section" (dict "Feature" . "Data" $.Site.Data "useFontAwesome" $.Site.Params.useFontAwesome) }}
+			{{ end }}
+		</article>
+		{{ end }}
+	
 	{{ end }}
 
 	{{ if .Site.Params.footer.show }}
