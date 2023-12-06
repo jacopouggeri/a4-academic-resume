@@ -30,6 +30,8 @@ skills:
       - Bash
       - Mathematica
       - Haskell
+      - Matlab
+      - Fortran
 
   - groupName: Markup
     flexSpan: 15
@@ -40,7 +42,7 @@ skills:
       - CSS
       - Javascript
 
-  - groupName: M. Learning
+  - groupName: ML & Data
     flexSpan: 15
     list:
       - Python

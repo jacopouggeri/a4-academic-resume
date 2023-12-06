@@ -21,7 +21,7 @@
   }
 
   h2 {
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.1rem;
     font-size: 1.1rem;
   }
 
@@ -46,7 +46,6 @@
     flex-direction: row;
     font-weight: bold;
     justify-content: space-between;
-    color: $accent;
   }
 
   .item-title {
@@ -157,7 +156,7 @@ main.paper {
     }
 
     h2 {
-      margin-bottom: 0.2rem;
+      margin-bottom: 0;
       font-size: 1rem;
     }
 

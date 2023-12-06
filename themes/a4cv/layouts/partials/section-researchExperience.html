@@ -1,26 +1,22 @@
 {{ range .Data.researchExperience }}
 {{ if not .disable }}
 <div class="item group">
-    <div class="flex-row">
-	    <h2 class="item-title">
-            {{if .link}}<a href="{{ .link }}" >{{end}}
-                {{ .title }}
-                {{ if .subtitle }}<br><span class="item-subtitle">{{ .subtitle }}</span>{{ end }}
-            {{if .link}}</a>{{end}}
-        </h2>
-        {{ if .date }}<h2 class="date">{{ .date }}</h2>{{ end }}
-    </div>
+    <h2 class="item-title">
+        {{if .link}}<a href="{{ .link }}" >{{end}}
+            {{ .title }}
+            {{ if .subtitle }}<br><span class="item-subtitle">{{ .subtitle }}</span>{{ end }}
+        {{if .link}}</a>{{end}}
+    </h2>
 	<div class="item">
         <div class="flex-row">
             <h3 class="location">
                 {{ .location | markdownify }}
-                {{ if .certificate }} <a href="{{ .certificate }}" class="no-external-icon"><i class="fa fa-certificate"></i></a> {{ end }}
+                {{- if .certificate -}} <a href="{{ .certificate }}" class="no-external-icon"><i class="fa fa-certificate"></i></a> {{- end -}}
+                {{- if .supervisor -}}
+                , {{ .supervisor | markdownify }}
+                {{- end -}}
             </h3>
-            {{ if .supervisor}}
-            <h3 class="supervisor">
-                {{ .supervisor | markdownify }}
-            </h3>
-            {{ end }}
+            {{ if .date }}<h3 class="date">{{ .date }}</h3>{{ end }}
         </div>
         {{ if .details }}
         <div class="details">

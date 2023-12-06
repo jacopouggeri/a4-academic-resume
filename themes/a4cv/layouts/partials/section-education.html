@@ -11,8 +11,8 @@
 	<h2 class="item-title">{{ .name }} {{ if .gpa }}|  <span class="item-subtitle">{{ .gpa }}</span>  {{ end }} </h2>
 	<div class="item">
 		<div class="flex-row">
-			<span class="location">{{ .university }}{{ if .location }},&nbsp;{{ .location }} {{ end }} </span>
-			<span class="date">{{ .date }}</span>
+			<h3 class="location">{{ .university }}{{ if .location }},&nbsp;{{ .location }} {{ end }} </h3>
+			<h3 class="date">{{ .date }}</h3>
 		</div>
 		{{ if .details }}
 		<div class="details">

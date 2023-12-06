@@ -1,3 +1,13 @@
+- title: "Evolution of Red Giants under Photoevaporation"
+  subtitle:
+  location: "Imperial College London"
+  supervisor: "Supervisor: [James Owen](https://www.imperial.ac.uk/people/james.owen)"
+  link: "https://jacopouggeri.github.io/msci/"
+  date: "2023 — Present"
+  details: |
+    - Continuation of work on MSci project, building on previous results
+    - Modified MESA, a research-grade stellar evolution code, to simulate the evolution of red giants under photoevaporation
+
 - title: "Black Hole Entanglement Entropy from Causal Graphs"
   subtitle:
   location: "Wolfram Summer School"
@@ -10,8 +20,8 @@
     - Applied numerical GR tools in Wolfram Language to obtain causal structure of a Schwarzschild black hole
     - Investigated the hypothesis that black hole entropy emerges from the entanglement of the interior and exterior causal graph regions
 
-- title: "Shining Light on Missing Red Giants:"
-  subtitle: "Red Giant Photoevaporation in the Galactic Centre"
+- title: "Red Giant Photoevaporation in the Galactic Centre"
+  subtitle:
   location: "Imperial College London"
   supervisor: "Supervisor: [James Owen](https://www.imperial.ac.uk/people/james.owen)"
   link: "https://jacopouggeri.github.io/msci/"
@@ -19,7 +29,7 @@
   details: |
     - Investigated the impact of photoevaporation on red giants in proximity to supermassive black holes
     - Computational and theoretical project: designed, wrote, and tested shareable code
-    - Produced a comprehensive analysis, concluding that photoevaporation can significantly influence red giant evolution.
+    - Produced a comprehensive analysis, concluding that photoevaporation can significantly influence acred giant's life.
     - Created and presented a highly commended poster and viva presentation, demonstrating effective communication and visualization skills.
     - Awarded First Class Honours for the project
 

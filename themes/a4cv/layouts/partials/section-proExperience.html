@@ -12,13 +12,14 @@
 		{{ range .roles }}
 		<div class="item">
 			<div class="flex-row">
-				<span class="job-title">{{ .role }}</span>
-				<span class="date">{{ .date }}</span>
+				<h3 class="job-title">{{ .role }}</h3>
+				<h3 class="date">{{ .date }}</h3>
 			</div>
 			{{ if .details }}
-			<div class="details">
-			{{- partial "markdown" .details }}
-			</div>
+			<ul class="details">
+			<li> {{- partial "markdown" .details }}
+			</li>
+			</ul>
 			{{ end }}
 		</div>
 		{{ end }}

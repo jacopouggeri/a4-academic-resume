@@ -79,10 +79,10 @@
 main.paper .right-column,
 main.paper .left-column,
 .paper {
-  .section-education {
-    h2 {
-      margin-bottom: 0;
-      font-size: 1rem;
+
+  .section-proExperience {
+    .job-title {
+      color: $accent;
     }
   }
 

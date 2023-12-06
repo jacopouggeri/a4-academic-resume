@@ -79,10 +79,12 @@ params:
         - feature: otherExperience
           title: Other Experience
         - feature: experiences
+          title: Extracurriculars
           collection: experiences
         - feature: doubleColumn
           features:
             - feature: languages
+              icons: false
             - feature: skills
               widget: word-list
               style: bubbles

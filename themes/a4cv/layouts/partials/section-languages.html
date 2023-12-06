@@ -1,7 +1,9 @@
 {{ range .Data.features.languages }}
 <div class="item">
 	<h2 class="item-title">
+		{{ if .icons }}
 		<span class="fi fi-{{ .icon }}"></span>
+		{{ end }}
 		<span class="item-name">{{- .name -}}</span>
 		{{ if .skillBar }}
 		<div class="skill-bar">
