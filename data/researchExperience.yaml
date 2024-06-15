@@ -14,8 +14,7 @@
   link: "https://jacopouggeri.github.io/msci/"
   date: "2023 — Present"
   details: |
-    - Continuation of work on MSci project, building on previous results
-    - Modified MESA, a research-grade stellar evolution code, to simulate the evolution of red giants under photoevaporation
+    - Continuation of work on MSci project, building on previous results: modified MESA, a research-grade stellar evolution code, to simulate the evolution of red giants under photoevaporation
 
 - title: "Black Hole Entanglement Entropy from Causal Graphs"
   subtitle:
