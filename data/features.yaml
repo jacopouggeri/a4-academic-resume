@@ -24,10 +24,10 @@ skills:
   - groupName: Coding
     flexSpan: 20
     list:
+      - C#
       - C++
       - Java
       - Git
-      - Bash
       - Mathematica
       - Haskell
       - Matlab
