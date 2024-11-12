@@ -1,3 +1,14 @@
+- title: Tonale Winter School on Cosmology
+  location: KU Leuven, Leuven Gravity Institute
+  date: "Dec 2024"
+  details: |
+    - School aimed at advanced masters students and PhD students, will participate in workshops and attend lectures from leading researchers in the field
+- title: EMR Gravitational Waves PhD School
+  location: KU Leuven, Leuven Gravity Institute
+  date: "Nov 2024"
+  details: |
+    - Participated in week-long school on gravitational waves, focusing on the theoretical and experimental aspects of the field
+    - Presented a poster on my MSc research on the representation theory of non-abelian magnetic charges
 - title: Imperial Eco-Marathon
   location: Imperial College London, Simulation Team
   date: "2023"
@@ -6,20 +17,20 @@
     - Applied physical and mathematical principles to advise the team on the theoretical aspects of the simulations
     - Enhanced cross-disciplinary communication and teamwork skills through collaboration with students from diverse academic backgrounds.
 
-- title: Search for Beyond SM Physics from LHCb Data
-  disable: false
-  location: Group Project at Imperial College London
-  date: "2021"
-  details: |
-    - Involved coordinating with other ~20 students to analyze data from LHCb experiment
-    - Participated in group discussions and contributed meaningful ideas
-    - Main role was to train a decision tree model to separate background from signal
+#- title: Search for Beyond SM Physics from LHCb Data
+#  disable: false
+#  location: Group Project at Imperial College London
+#  date: "2021"
+#  details: |
+#    - Involved coordinating with other ~20 students to analyze data from LHCb experiment
+#    - Participated in group discussions and contributed meaningful ideas
+#    - Main role was to train a decision tree model to separate background from signal
 
-- title: Improving People Counter Image Recognition Neural Network
-  certificate: "http://jacopouggeri.github.io/docs/cv/grottini.pdf"
-  location: Summer work experience at GrottiniLab with Politecnico di Ancona
-  date: "2020"
-  details: |
-    - Was assigned to a software engineer working on a ”people counter” neural network, with the aim of exploring new avenues of improvement
-    - Reviewed literature on the current state of the art of image recognition neural networks
-    - Proposed and coded a new data augmentation strategy to improve the product
+#- title: Improving People Counter Image Recognition Neural Network
+#  certificate: "http://jacopouggeri.github.io/docs/cv/grottini.pdf"
+#  location: Summer work experience at GrottiniLab with Politecnico di Ancona
+#  date: "2020"
+#  details: |
+#    - Was assigned to a software engineer working on a ”people counter” neural network, with the aim of exploring new avenues of improvement
+#    - Reviewed literature on the current state of the art of image recognition neural networks
+#    - Proposed and coded a new data augmentation strategy to improve the product
