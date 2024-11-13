@@ -58,7 +58,7 @@ params:
   header:
     avatar: #img/profile.jpeg
     contact: true
-    tagline: true
+    tagline: false
     links: true
   side:
     - feature: languages
