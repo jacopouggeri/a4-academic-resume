@@ -75,9 +75,9 @@ params:
           title: Research Experience
     - features:
         - feature: proExperience
-          title: Professional Experience
+          title: Teaching Experience
         - feature: otherExperience
-          title: Other Experience
+          title: Workshops & Conferences
         - feature: experiences
           title: Extracurriculars
           collection: experiences

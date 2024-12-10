@@ -7,15 +7,6 @@
   details: |
     - Investigated the representation theory of charges and non-abelian analogues of the Dirac quantization condition for non-abelian gauge theories, with the final aim of understanding gravitational magnetic charge
 
-- title: "Evolution of Red Giants under Photoevaporation"
-  subtitle:
-  location: "Imperial College London"
-  supervisor: "Supervisor: [James Owen](https://www.imperial.ac.uk/people/james.owen)"
-  link: "https://jacopouggeri.github.io/msci/"
-  date: "2023 — Present"
-  details: |
-    - Continuation of work on MSci project, building on previous results: modified MESA, a research-grade stellar evolution code, to simulate the evolution of red giants under photoevaporation
-
 - title: "Black Hole Entanglement Entropy from Causal Graphs"
   subtitle:
   location: "Wolfram Summer School"
@@ -27,6 +18,15 @@
     - Completed first-ever analysis of curved spacetime entropy in the Wolfram Physics Project
     - Applied numerical GR tools in Wolfram Language to obtain causal structure of a Schwarzschild black hole
     - Investigated the hypothesis that black hole entropy emerges from the entanglement of the interior and exterior causal graph regions
+
+- title: "Evolution of Red Giants under Photoevaporation"
+  subtitle:
+  location: "Imperial College London"
+  supervisor: "Supervisor: [James Owen](https://www.imperial.ac.uk/people/james.owen)"
+  link: "https://jacopouggeri.github.io/msci/"
+  date: "2023 — Present"
+  details: |
+    - Continuation of work on MSci project, building on previous results: modified MESA, a research-grade stellar evolution code, to simulate the evolution of red giants under photoevaporation
 
 - title: "Red Giant Photoevaporation in the Galactic Centre"
   subtitle:
