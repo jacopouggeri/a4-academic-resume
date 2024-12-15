@@ -36,4 +36,6 @@
 {{ if .Header.avatar }}
 <div><img class="avatar right" src="{{ .Header.avatar }}"></div>
 {{ end }}
-
+{{ if .Header.details }}
+	{{ partial "section-about" . }}
+{{ end }}

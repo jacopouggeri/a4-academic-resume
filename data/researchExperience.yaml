@@ -1,4 +1,4 @@
-- title: "Representation theory of non-abelian magnetic charges"
+- title: "Representation Theory of Non-abelian Magnetic Charges"
   subtitle:
   location: "MSc Dissertation at Imperial College London"
   supervisor: "Supervisor: [João Magueijo](https://profiles.imperial.ac.uk/j.magueijo)"
@@ -32,13 +32,14 @@
   subtitle:
   location: "MSci Project at Imperial College London"
   supervisor: "Supervisor: [James Owen](https://www.imperial.ac.uk/people/james.owen)"
+  #grade: "Grade: 1st Class"
   link: "https://jacopouggeri.github.io/msci/"
   date: "2022 — 2023"
   details: |
     - Investigated the impact of photoevaporation on red giants in proximity to supermassive black holes
     - Computational and theoretical project: designed, wrote, and tested shareable code
-    - Produced a comprehensive analysis, concluding that photoevaporation can significantly influence a red giant's life.
-    - Awarded First Class Honours for the project
+    - Produced a comprehensive analysis, concluding that photoevaporation can significantly influence a red giant's life
+    - Achieved a First Class Honours grade for the project
 
 - title: Critical Temperature of an Ising Model on a Sierpinski Gasket 
   disable: true

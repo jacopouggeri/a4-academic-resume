@@ -15,6 +15,9 @@
                 {{- if .supervisor -}}
                 , {{ .supervisor | markdownify }}
                 {{- end -}}
+                {{- if .grade -}}
+                | {{ .grade | markdownify }}
+                {{- end -}}
             </h3>
             {{ if .date }}<h3 class="date">{{ .date }}</h3>{{ end }}
         </div>

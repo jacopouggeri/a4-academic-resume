@@ -60,6 +60,7 @@ params:
     contact: true
     tagline: false
     links: true
+    details: false # disable to remove short "about me" section
   side:
     - feature: languages
     - feature: skills
