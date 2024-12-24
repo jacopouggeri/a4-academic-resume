@@ -1,9 +1,15 @@
+- title: "Wolfram Science Winter School"
+  location: "Wolfram Institute, Remote"
+  link: "https://education.wolfram.com/winter-school/"
+  date: "Jan 2025"
+  details: |
+    - Will complete an **original research project** under Wolfram mentors, likely aligned with MSc dissertation topic and the Wolfram Physics Project
 - title: Tonale Winter School on Cosmology
   location: Passo del Tonale, Italy
   link: https://indico.physi.uni-heidelberg.de/event/947/
   date: "Dec 2024"
   details: |
-    - School organised by Heidelberg University aimed at advanced masters students and PhD students, participated in workshops on fundamental physics tests with GW and attended lectures from leading researchers in the field
+    - School organised by Heidelberg University aimed at advanced masters students and PhD students, **participated in workshops** on fundamental physics tests with GW and attended lectures from leading researchers in the field
 - title: EMR Gravitational Waves PhD School
   location: KU Leuven, Leuven Gravity Institute
   link: https://indico.fys.kuleuven.be/event/98/overview
