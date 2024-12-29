@@ -8,22 +8,39 @@
   location: Heidelberg University, Passo del Tonale, Italy
   link: https://indico.physi.uni-heidelberg.de/event/947/
   date: "Dec 2024"
-  details: |
-    - School organised by Heidelberg University aimed at advanced masters students and PhD students, **participated in workshops** on fundamental physics tests with GW and attended lectures from leading researchers in the field
+  #details: |
+  #  - School organised by Heidelberg University aimed at advanced masters students and PhD students, **participated in workshops** on fundamental physics tests with GW and attended lectures from leading researchers in the field
 - title: EMR Gravitational Waves PhD School
   location: KU Leuven, Leuven Gravity Institute
   link: https://indico.fys.kuleuven.be/event/98/overview
   date: "Nov 2024"
   details: |
-    - Participated in week-long school on gravitational waves, focusing on the theoretical and experimental aspects of the field
     - **Presented a poster** on my MSc research on the representation theory of non-abelian magnetic charges
+#    - Participated in week-long school on gravitational waves, focusing on the theoretical and experimental aspects of the field
 - title: Frontiers in Scientific Research Summit
   location: Imperial College London, SynBIC
   date: "Feb 2024"
   details: |
-    - Student-led conference aimed at bringing together students from different disciplines to discuss latest research
-    - Was one of three participants **selected to give a talk** on my MSci research on red giant photoevaporation
-    - **Presented a poster** on the same project, which was awarded the **second best poster prize** - judges were practicing physicists
+    - **Selected to give a talk** on my MSci research on red giant photoevaporation
+    - **Presented a poster** which was awarded the **Second Best Poster prize**, as judged by practicing physicists
+- title: "Wolfram Summer School"
+  location: "Wolfram Institute, Bentley University, Waltham, MA, USA"
+  link: "https://education.wolfram.com/summer-school"
+  certificate: "http://jacopouggeri.github.io/docs/cv/wss.pdf"
+  date: "Jul 2023"
+  collapse: false
+  details: |
+    - Attended an interdisciplinary program with experts from diverse fields, showcasing adaptability, a **commitment to learning**, and the ability to bridge concepts **across disciplines**
+    - Applied **Wolfram Language computational tools** to obtain the causal graph structure of a Schwarzschild black hole
+- title: "DeepLearn Summer School"
+  location: "Politecnico di Ancona, Las Palmas de Gran Canaria, Spain"
+  link: "https://irdta.eu/deeplearn-events/"
+  certificate: "http://jacopouggeri.github.io/docs/cv/deeplearn.pdf"
+  date: "Jul 2021"
+  collapse: false
+  details: |
+    - Attended 38 hours of **postgraduate level lectures** given by **Machine Learning experts** from various fields
+    - Successfully **adapted** to and **extracted meaningful insights** from highly technical lectures, demonstrating the ability to quickly **grasp complex concepts** beyond my formal background
 
 #- title: Search for Beyond SM Physics from LHCb Data
 #  disable: false

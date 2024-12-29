@@ -1,31 +1,10 @@
 - title: Imperial Eco-Marathon – Simulation Team Member
   location: Imperial College London, Simulation Team
   date: 2023
-  collapse: true
+  collapse: false
   details: |
-    - Applied physical and mathematical principles to advise the team on the theoretical aspects of the simulations
-    - Enhanced cross-disciplinary communication and teamwork skills through collaboration with students from diverse academic backgrounds
-#    - Participated in the Imperial team competing in the Shell Eco-Marathon competition
-
-- title: "Wolfram Summer School"
-  link: "https://education.wolfram.com/summer-school"
-  certificate: "http://jacopouggeri.github.io/docs/cv/wss.pdf"
-  date: 2023
-  collapse: true
-  details: |
-    - Research experience in the Wolfram Physics project, Causal Set Theory, and General Relativity
-    - First-ever analysis of curved spacetime entropy in the Wolfram Physics Project
-    - Applied Wolfram language computational tools to obtain the causal graph structure of a Schwarzschild black hole
-    - Investigated the hypothesis that black hole entropy emerges from the entanglement of the interior and exterior causal graph regions
-
-- title: "DeepLearn Summer School"
-  link: "https://irdta.eu/deeplearn-events/"
-  certificate: "http://jacopouggeri.github.io/docs/cv/deeplearn.pdf"
-  date: 2021
-  collapse: true
-  details: |
-    - Attended 38 hours of postgraduate level lectures given by Machine Learning experts from various fields
-    - Learned to comprehend and acquire meaningful information from lectures that assumed more advanced background knowledge than I had
+    - Contributed to **simulation design** by applying advanced physical and mathematical principles.
+    - Collaborated with a **multi-disciplinary team**, honing **communication** and **problem-solving** skills across diverse academic fields.
 
 - title: "Project Extreme Energy Events (EEE)"
   date: 2013 – 2019
@@ -37,10 +16,10 @@
     - Attended lectures and conferences on particle Physics.
     - Participated in joint conferences between participating schools summarizing recent results
 
-- title: "Building a MRPC Muon Detector Chamber at CERN"
-  date: 2017
-  certificate: "http://jacopouggeri.github.io/docs/cv/eee.pdf"
-  collapse: true
-  details: |
-    - Worked with peers in a laboratory to assemble a muon detector chamber
-    - Attended seminars hosted by CERN personnel regarding the present state of particle Physics
+#- title: "Building a MRPC Muon Detector Chamber at CERN"
+#  date: 2017
+#  certificate: "http://jacopouggeri.github.io/docs/cv/eee.pdf"
+#  collapse: true
+#  details: |
+#    - Worked with peers in a laboratory to assemble a muon detector chamber
+#    - Attended seminars hosted by CERN personnel regarding the present state of particle Physics
