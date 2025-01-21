@@ -1,3 +1,12 @@
+- title: "Ruliological Engineering of Well-defined Geometries from Hypergraph Rewriting"
+  subtitle:
+  location: "Wolfram Winter School, Wolfram Institute"
+  supervisor: "Mentors: Dugan Hammock, Utkarsh Bajaj"
+  link: "https://community.wolfram.com/groups/-/m/t/3358036"
+  date: "2025"
+  details: |
+    - **Computational research project** using Wolfram tools to investigate the emergence of well-behaved geometries from hypergraph rewriting rules
+    
 - title: "Representation Theory of Non-abelian Magnetic Charges"
   subtitle:
   location: "MSc Dissertation at Imperial College London"
@@ -6,7 +15,6 @@
   date: "2024"
   details: |
     - Investigated the representation theory of charges and non-abelian analogues of the Dirac quantization condition for non-abelian gauge theories, with the final aim of understanding gravitational magnetic charge
-    - Achieved a First Class Honours grade for the project
 
 - title: "Black Hole Entanglement Entropy from Causal Graphs"
   subtitle:
@@ -15,19 +23,18 @@
   date: "2023"
   link: "https://community.wolfram.com/groups/-/m/t/2959318?p_p_auth=Bi9ObgWO"
   details: |
-    - Research experience in the Wolfram Physics project, Causal Set Theory, and General Relativity
     - Completed first-ever analysis of curved spacetime entropy in the Wolfram Physics Project
     - Applied numerical GR tools in Wolfram Language to obtain causal structure of a Schwarzschild black hole
     - Investigated the hypothesis that black hole entropy emerges from the entanglement of the interior and exterior causal graph regions
 
-- title: "Evolution of Red Giants under Photoevaporation"
+- title: "Evolution of Red Giants Under Photoevaporation"
   subtitle:
   location: "Imperial College London"
   supervisor: "Supervisor: [James Owen](https://www.imperial.ac.uk/people/james.owen)"
   link: "https://jacopouggeri.github.io/msci/"
   date: "2023 — Present"
   details: |
-    - Continuation of work on MSci project, building on previous results: modified MESA, a research-grade stellar evolution code, to simulate the evolution of red giants under photoevaporation
+    - Continuation of work on MSci project, building on previous results: modified MESA, a research-grade stellar evolution code in FORTRAN, to simulate the evolution of red giants under photoevaporation
 
 - title: "Red Giant Photoevaporation in the Galactic Centre"
   subtitle:
@@ -40,7 +47,6 @@
     - Investigated the impact of photoevaporation on red giants in proximity to supermassive black holes
     - Computational and theoretical project: designed, wrote, and tested shareable code
     - Produced a comprehensive analysis, concluding that photoevaporation can significantly influence a red giant's life
-    - Achieved a First Class Honours grade for the project
 
 - title: Critical Temperature of an Ising Model on a Sierpinski Gasket 
   disable: true

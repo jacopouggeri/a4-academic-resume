@@ -71,11 +71,13 @@ params:
     #  style: list
   pages:
     - features:
-        - feature: education
         - feature: researchExperience
           title: Research Experience
-    - features:
         - feature: proExperience
+          title: Internships
+        - feature: education
+    - features:
+        - feature: teachingExperience
           title: Teaching Experience
         - feature: otherExperience
           title: Workshops & Conferences

@@ -1,0 +1,24 @@
+- company: Imperial College London
+  roles:
+    - role: Graduate Teaching Assistant (Helpdesk)
+      date: "September 2023 - March 2024"
+      #details: "Ran weekly helpdesk sessions for all UG students, providing support and guidance on course material and technical issues."
+    - role: Graduate Teaching Assistant (Labs)
+      date: "September 2022 - March 2023"
+      #details: "Assisted 1st-year students in labs, guiding them to develop the critical thinking and problem-solving skills required to succeed in the course."
+#- company: Freelance Tutoring
+#  roles:
+#    - role: Maths and Physics
+#      date: "2018 - 2019"
+
+#- company: Google
+#  roles: 
+#    - role: Senior Software Developer
+#      details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.
+#              Aenean nec volutpat arcu. Maecenas quis tempus risus. "
+#      date: "06.2019 - 10.2020"
+#    
+#    - role: Junior Software Developer
+#      date: "10.2018 - 06.2019"
+#      details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.
+#              Aenean nec volutpat arcu. Maecenas quis tempus risus. "

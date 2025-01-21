@@ -3,7 +3,8 @@
   link: "https://education.wolfram.com/winter-school/"
   date: "Jan 2025"
   details: |
-    - Will complete an **original research project** under Wolfram mentors, aligned with MSc dissertation topic and the Wolfram Physics Project
+    - Worked on original research project in the Wolfram Physics Project
+    - Attended lectures on the **Wolfram Physics Project** and Wolfram computational tools
 - title: Tonale Winter School on Cosmology
   location: Heidelberg University, Passo del Tonale, Italy
   link: https://indico.physi.uni-heidelberg.de/event/947/
@@ -30,8 +31,8 @@
   date: "Jul 2023"
   collapse: false
   details: |
-    - Attended an interdisciplinary program with experts from diverse fields, showcasing adaptability, a **commitment to learning**, and the ability to bridge concepts **across disciplines**
     - Applied **Wolfram Language computational tools** to obtain the causal graph structure of a Schwarzschild black hole
+#    - Attended an interdisciplinary program with experts from diverse fields, showcasing adaptability, a **commitment to learning**, and the ability to bridge concepts **across disciplines**
 - title: "DeepLearn Summer School"
   location: "Politecnico di Ancona, Las Palmas de Gran Canaria, Spain"
   link: "https://irdta.eu/deeplearn-events/"

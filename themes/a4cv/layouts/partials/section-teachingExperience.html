@@ -1,0 +1,29 @@
+{{ range .Data.teachingExperience }}
+{{ if not .disable }}
+<div class="item group">
+	{{ if $.IsSide }}
+		<h2 class="item-title">{{ .company }}</h2>
+		{{ range .roles }}
+		<span>{{ .role }}</span><br>
+		<span>{{ .date }}</span>
+		{{ end }}
+	{{ else }}
+		<h2 class="item-title">{{ .company }}</h2>
+		{{ range .roles }}
+		<div class="item">
+			<div class="flex-row">
+				<h3 class="job-title">{{ .role }}</h3>
+				<h3 class="date">{{ .date }}</h3>
+			</div>
+			{{ if .details }}
+			<ul class="details">
+			<li> {{- partial "markdown" .details }}
+			</li>
+			</ul>
+			{{ end }}
+		</div>
+		{{ end }}
+	{{ end }}
+</div>
+{{ end }}
+{{ end }}
