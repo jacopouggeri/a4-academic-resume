@@ -60,7 +60,7 @@ params:
     contact: true
     tagline: false
     links: true
-    details: true # disable to remove short "about me" section
+    details: false # disable to remove short "about me" section
   side:
     - feature: languages
     - feature: skills
@@ -104,7 +104,7 @@ params:
   footer:
     show: true
     credits: true
-    lastUpdate: "2 Jan 2025"
+    lastUpdate: "30 Jan 2025"
     footnote: >-
       
     links:
