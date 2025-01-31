@@ -1,0 +1,29 @@
+{{ range .Data.researchPositions }}
+{{ if not .disable }}
+<div class="item group">
+    <div class="flex-row">
+	    <h2 class="item-title">
+            {{if .link}}<a href="{{ .link }}" >{{end}}
+                {{ .title }} 
+                {{ if .certificate }} <a href="{{ .certificate }}" class="no-external-icon"><i class="fa fa-certificate"></i></a> {{ end }}
+                <br>
+                {{ if .subtitle }} <span class="item-subtitle">{{ .subtitle }}</span>{{ end }}
+            {{if .link}}</a>{{end}}
+        </h2>
+        {{ if .date }}<h2 class="date">{{ .date }}</h2>{{ end }}
+    </div>
+	<div class="item">
+        <div class="flex-row">
+            <h3 class="location">
+                {{ .location | markdownify }}
+            </h3>
+        </div>
+        {{ if .details }}
+        <div class="details">
+        {{- partial "markdown" .details }}
+        </div>
+        {{ end }}
+	</div>
+</div>
+{{ end }}
+{{ end }}

@@ -60,7 +60,7 @@ params:
     contact: true
     tagline: false
     links: true
-    details: false # disable to remove short "about me" section
+    details: true # disable to remove short "about me" section
   side:
     - feature: languages
     - feature: skills
@@ -71,14 +71,16 @@ params:
     #  style: list
   pages:
     - features:
-        - feature: education
         - feature: researchExperience
           title: Research Experience
+        - feature: education
     - features:
+        - feature: researchPositions
+          title: Research Positions
+        - feature: workshops
+          title: Workshops & Conferences
         - feature: proExperience
           title: Teaching Experience
-        - feature: otherExperience
-          title: Workshops & Conferences
         - feature: experiences
           title: Extracurriculars
           collection: experiences

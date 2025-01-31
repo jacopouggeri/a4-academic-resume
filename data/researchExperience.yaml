@@ -16,7 +16,6 @@
   link: "https://community.wolfram.com/groups/-/m/t/2959318?p_p_auth=Bi9ObgWO"
   details: |
     - Research experience in the Wolfram Physics project, Causal Set Theory, and General Relativity
-    - Completed first-ever analysis of curved spacetime entropy in the Wolfram Physics Project
     - Applied numerical GR tools in Wolfram Language to obtain causal structure of a Schwarzschild black hole
     - Investigated the hypothesis that black hole entropy emerges from the entanglement of the interior and exterior causal graph regions
 
@@ -33,14 +32,14 @@
   subtitle:
   location: "MSci Project at Imperial College London"
   supervisor: "Supervisor: [James Owen](https://www.imperial.ac.uk/people/james.owen)"
-  #grade: "Grade: 1st Class"
+#  grade: "Grade: 1st Class"
   link: "https://jacopouggeri.github.io/msci/"
   date: "2022 — 2023"
   details: |
     - Investigated the impact of photoevaporation on red giants in proximity to supermassive black holes
     - Computational and theoretical project: designed, wrote, and tested shareable code
     - Produced a comprehensive analysis, concluding that photoevaporation can significantly influence a red giant's life
-    - Achieved a First Class Honours grade for the project
+#    - Achieved a First Class Honours grade for the project
 
 - title: Critical Temperature of an Ising Model on a Sierpinski Gasket 
   disable: true

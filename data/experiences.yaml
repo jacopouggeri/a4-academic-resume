@@ -12,6 +12,7 @@
   certificate: "http://jacopouggeri.github.io/docs/cv/wss.pdf"
   date: 2023
   collapse: true
+  disable: true
   details: |
     - Research experience in the Wolfram Physics project, Causal Set Theory, and General Relativity
     - First-ever analysis of curved spacetime entropy in the Wolfram Physics Project
@@ -40,6 +41,7 @@
 - title: "Building a MRPC Muon Detector Chamber at CERN"
   date: 2017
   certificate: "http://jacopouggeri.github.io/docs/cv/eee.pdf"
+  disable: true
   collapse: true
   details: |
     - Worked with peers in a laboratory to assemble a muon detector chamber

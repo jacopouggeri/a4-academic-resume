@@ -2,10 +2,10 @@
   roles:
     - role: Graduate Teaching Assistant (Helpdesk)
       date: "Sep 2023 - Mar 2024"
-      details: "Ran weekly helpdesk sessions for all UG students, providing support and guidance on course material and technical issues."
+      details: "Ran helpdesk sessions for UG students, providing support and guidance on course material and technical issues"
     - role: Graduate Teaching Assistant (Labs)
       date: "Sep 2022 - Mar 2023"
-      details: "Assisted 1st-year students in labs, guiding them to develop the critical thinking and problem-solving skills required to succeed in the course."
+      details: "Assisted 1st-year students in labs, guiding them to develop critical thinking and problem-solving skills"
 #- company: Freelance Tutoring
 #  roles:
 #    - role: Maths and Physics
