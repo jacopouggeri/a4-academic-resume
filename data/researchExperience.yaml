@@ -5,7 +5,7 @@
   link: "https://community.wolfram.com/groups/-/m/t/3358036"
   date: "2025"
   details: |
-    - **Computational research project** using Wolfram tools to investigate the emergence of well-behaved geometries from hypergraph rewriting rules
+    - Computational research project using Wolfram tools to investigate the emergence of well-behaved geometries from hypergraph rewriting rules
     
 - title: "Representation Theory of Non-abelian Magnetic Charges"
   subtitle:
@@ -23,9 +23,8 @@
   date: "2023"
   link: "https://community.wolfram.com/groups/-/m/t/2959318?p_p_auth=Bi9ObgWO"
   details: |
-    - Completed first-ever analysis of curved spacetime entropy in the Wolfram Physics Project
     - Applied numerical GR tools in Wolfram Language to obtain causal structure of a Schwarzschild black hole
-    - Investigated the hypothesis that black hole entropy emerges from the entanglement of the interior and exterior causal graph regions
+    - Investigated hypothesis that black hole entropy emerges from the entanglement of the interior and exterior regions
 
 - title: "Evolution of Red Giants Under Photoevaporation"
   subtitle:

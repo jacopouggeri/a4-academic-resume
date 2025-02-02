@@ -2,6 +2,7 @@
   location: "Wolfram Institute, Remote"
   link: "https://education.wolfram.com/winter-school/"
   date: "Jan 2025"
+  collapse: true
   details: |
     - Worked on original research project in the Wolfram Physics Project
     - Attended lectures on the **Wolfram Physics Project** and Wolfram computational tools
@@ -9,8 +10,9 @@
   location: Heidelberg University, Passo del Tonale, Italy
   link: https://indico.physi.uni-heidelberg.de/event/947/
   date: "Dec 2024"
-  #details: |
-  #  - School organised by Heidelberg University aimed at advanced masters students and PhD students, **participated in workshops** on fundamental physics tests with GW and attended lectures from leading researchers in the field
+  collapse: true
+  details: |
+    - School organised by Heidelberg University aimed at advanced masters students and PhD students, **participated in workshops** on fundamental physics tests with GW and attended lectures from leading researchers in the field
 - title: EMR Gravitational Waves PhD School
   location: KU Leuven, Leuven Gravity Institute
   link: https://indico.fys.kuleuven.be/event/98/overview
@@ -29,7 +31,7 @@
   link: "https://education.wolfram.com/summer-school"
   certificate: "http://jacopouggeri.github.io/docs/cv/wss.pdf"
   date: "Jul 2023"
-  collapse: false
+  collapse: true
   details: |
     - Applied **Wolfram Language computational tools** to obtain the causal graph structure of a Schwarzschild black hole
 #    - Attended an interdisciplinary program with experts from diverse fields, showcasing adaptability, a **commitment to learning**, and the ability to bridge concepts **across disciplines**

@@ -1,8 +1,14 @@
+- title: AI for Academic Research
+  certificate:
+  location: Intern at Framework (Funded by Harvard ILabs)
+  date: "Jan 2025 – Present"
+  details: |
+    - Working on improving LLM tools for Academic Research
 - title: Improving People Counter Image Recognition Neural Network
   certificate: "http://jacopouggeri.github.io/docs/cv/grottini.pdf"
   location: Summer internship at GrottiniLab with Politecnico di Ancona
   date: "July 2020"
   details: |
     - Shadowed work on a 'people counter' **neural network** and explored ancillary areas for improvement
-    - Analyzed existing literature on the latest advancements in image recognition neural networks
     - Developed and implemented a novel **data augmentation strategy** to enhance the product
+#    - Analyzed existing literature on the latest advancements in image recognition neural networks

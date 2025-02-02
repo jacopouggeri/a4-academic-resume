@@ -22,10 +22,12 @@
             </h3>
             {{ end }}
         </div>
-        {{ if .details }}
-        <div class="details">
-        {{- partial "markdown" .details }}
-        </div>
+        {{ if not .collapse }}
+            {{ if .details }}
+            <div class="details">
+            {{- partial "markdown" .details }}
+            </div>
+            {{ end }}
         {{ end }}
 	</div>
 </div>
