@@ -77,6 +77,8 @@ params:
           title: Internships
         - feature: education
     - features:
+        - feature: researchPositions
+          title: Research Positions
         - feature: teachingExperience
           title: Teaching Experience
         - feature: otherExperience
